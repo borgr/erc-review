@@ -1,0 +1,44 @@
+% A deliberately flawed B1 skeleton, so `erc_check.py example/` has something to
+% find. Invented content; it exercises the text checks but does not compile --
+% --pages needs the real ERC template (see README).
+\documentclass[11pt,a4paper]{article}
+\usepackage[b1,showinstructions]{ercformatting}
+\usepackage{ercreview}
+
+\title{An Example Proposal That Would Not Be Funded}
+\acronym{EXAMPLE}
+\author[Surname]{Name Surname}
+\institution{Faculty/Department, Institution, Country}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+HERE GOES YOUR PROPOSAL SUMMARY.
+\end{abstract}
+
+\startsectiona
+
+\section{Introduction}
+The behaviour of these systems is poorly understood, and various aspects of their
+performance remain unclear \citep{}. We will study them, and then we will build a
+framework, and we will evaluate it. This is clearly an important problem.
+
+\section{State of the Art}
+Prior work has not been extensively studied in this setting.
+Ordering
+Effects of scale will be measured across settings.
+
+\section{Objectives}
+O1. Build a benchmark suite for the phenomena described above.
+O2. Implement a training pipeline that leverages the benchmark.
+
+\startsectionb
+
+\cvsection*{Personal Details}
+ORCID: XXXX-XXXX-XXXX-XXXX
+
+\cvsubsection{Current position(s)}
+YYYY -- present, Position, Institution
+
+\end{document}

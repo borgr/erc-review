@@ -1,0 +1,53 @@
+% =====================================================================
+% ercreview.sty -- review comments for an ERC B1/B2 draft
+%
+% Part of the erc-review kit: https://github.com/borgr/erc-review
+% Comments are keyed to a section of ERC_writing_guide.md, so a comment
+% cites a rule rather than a preference. Severities match tools/erc_check.py:
+%
+%   \ercblock  {sec}{text}  compliance/placeholder -- not submittable as-is
+%   \ercscore  {sec}{text}  affects how an evaluation question scores
+%   \ercpolish {sec}{text}  sentence level, fix in a word pass
+%
+% e.g.  \ercscore{9.2}{this is the rationale, not the objective}
+%
+% Renders as coloured margin notes through todonotes when that package is
+% loaded, otherwise through \marginpar. \listoferccomments prints a summary
+% page so the author can work the queue without re-reading the draft.
+%
+% Drop every comment for the submission build with either
+%   \usepackage[off]{ercreview}     or     \ercreviewfalse
+%
+% Do NOT put these inside a \section{} argument -- it breaks the TOC.
+% =====================================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ercreview}[2026/08/11 ERC draft review comments]
+
+\RequirePackage{etoolbox}
+\RequirePackage{xcolor}
+
+\newif\ifercreview \ercreviewtrue
+\DeclareOption{off}{\ercreviewfalse}
+\DeclareOption{on}{\ercreviewtrue}
+\ProcessOptions\relax
+
+\definecolor{ercblockcol}{RGB}{200,30,30}
+\definecolor{ercscorecol}{RGB}{225,140,0}
+\definecolor{ercpolishcol}{RGB}{60,130,200}
+
+% todonotes may be loaded after this package, so resolve at use time.
+\newcommand{\ercnoteimpl}[3]{%
+  \ifercreview
+    \ifdef{\todo}%
+      {\todo[color=#1!20,bordercolor=#1,size=\scriptsize]{\textbf{\S#2}\ #3}}%
+      {\marginpar{\scriptsize\raggedright\textcolor{#1}{\textbf{\S#2}}\ #3}}%
+  \fi}
+
+\newcommand{\ercblock}[2]{\ercnoteimpl{ercblockcol}{#1}{#2}}
+\newcommand{\ercscore}[2]{\ercnoteimpl{ercscorecol}{#1}{#2}}
+\newcommand{\ercpolish}[2]{\ercnoteimpl{ercpolishcol}{#1}{#2}}
+
+\newcommand{\listoferccomments}{%
+  \ifdef{\listoftodos}{\listoftodos[ERC review comments]}{}}
+
+\endinput
