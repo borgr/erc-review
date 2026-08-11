@@ -1,8 +1,8 @@
 # Writing an ERC Starting / Consolidator Grant
 
-A working reference distilled from the Weizmann ERC preparatory seminar for the
-2026/2027 StG & CoG calls, plus the official instruction text embedded in the B1/B2
-template. Organised so you can read it once for the argument and then work
+A working reference for the **ERC-2027-StG and ERC-2027-CoG calls**, distilled from the
+Weizmann ERC preparatory seminar, the *Information for Applicants* (v11.0) and the *Work
+Programme 2027*. Organised so you can read it once for the argument and then work
 [§13](#13-review-protocol) against a live draft.
 
 §13 is a rubric, not a checklist: it runs top-down, from *is this an ERC project* to
@@ -27,10 +27,12 @@ stands alone if you would rather work the ladder by hand.
   (objectives, vision, preliminary data, impact, CV pages). Those carry an explicit
   "do not distribute beyond the seminar" restriction. What follows extracts the
   *rules*; where an illustration helps, the illustration is written fresh.
-- **Verify before relying on numbers.** Page limits and evaluation questions changed
-  between work programmes and the deck contains slides from both sides of the change
-  (see [§12](#12-resolved-and-open-items)). The official "Information for Applicants to
-  the Starting and Consolidator Grant 2027 Calls" is the authority.
+- **Checked against the primary sources.** Every limit, date and evaluation question here
+  was verified on 11 August 2026 against the *Information for Applicants to the Starting
+  and Consolidator Grant 2027 Calls* (v11.0, 22 July 2026) and the *ERC Work Programme
+  2027* (20 July 2026) — see [§12](#12-what-this-was-checked-against), which also lists
+  what changed recently enough that older advice is wrong. Those two documents, for **your**
+  call, are the authority; this file is a reading of them.
 
 ---
 
@@ -63,35 +65,64 @@ that is not the obvious next thing.
 
 ## 2. Call mechanics
 
+Figures below are Work Programme 2027 (calls ERC-2027-StG and ERC-2027-CoG). **The
+eligibility windows widened in WP 2027** — if you are working from advice written for
+WP 2026 or earlier, that is the first number to re-check.
+
 |  | Starting Grant | Consolidator Grant |
 |---|---|---|
-| Eligibility window | 2–7 years after PhD | 7–12 years after PhD |
+| Eligibility: PhD defence date | > 0 and ≤ 10 years before 1 Jan 2027 → 1 Jan 2017 – 31 Dec 2026 | > 5 and ≤ 15 years before 1 Jan 2027 → 1 Jan 2012 – 31 Dec 2021 |
+| Maximum grant | € 1.5 M | € 2.0 M |
+| Additional funding | up to € 1 M, or € 2 M if based outside the EU/AC at the call deadline — must be justified in the proposal | same |
 | Minimum time commitment | ≥ 50 % | ≥ 40 % |
+| Working time in a Member State or Associated Country | ≥ 50 % | ≥ 50 % |
 | Project length | up to 5 years (60 months) | up to 5 years (60 months) |
+| Once per career | one StG, ever | one CoG, ever |
 
-Deadlines shift each work programme (WP 2026: StG 14 Oct 2025, CoG 13 Jan 2026) — check
-the current call. Eligibility windows are defined by fixed PhD-award date ranges, and
-extensions (parental leave, illness, national service) require supporting documents.
+The reference date is the **defence** of your first PhD, not the award. Extensions
+(maternity 18 months per child, paternity, long-term illness, national service) need
+documentary evidence and are the reason to talk to your grants office early rather than
+late.
 
-**What you submit.** Part A online (abstract, panel and keyword choice, budget plus an
-8,000-character budget description, time commitment). Part B1: cover page, scientific
-proposal I, CV & track record — as **one single PDF**, never split. Part B2: scientific
-proposal II plus the table of current and submitted grants. Supporting documents: host
-institution support letter, PhD certificate, ethics/security documentation, eligibility
-extension evidence.
+Deadlines shift each work programme: **ERC-2027-StG opened 22 July 2026 and closes
+14 October 2026; ERC-2027-CoG opens 24 September 2026 and closes 12 January 2027.**
+
+**What you submit.** The call names four components, and the two names for each one —
+what the ERC calls it, and which form it lives in — are worth keeping straight, because
+the evaluation is split along these lines and not along the file boundaries:
+
+| Component | Lives in | Limit |
+|---|---|---|
+| **Part I of the Scientific Proposal** | Part B1, after the cover page | 5 pages |
+| **Curriculum Vitae and Track Record** | Part B1, one single template | 4 pages |
+| **Part II of the Scientific Proposal** | Part B2 | 7 pages |
+| **Resources and Time Commitment** | Part A online: budget table, 8,000-character resources text box, time commitment | — |
+
+B1 (cover page + Part I + CV/Track Record, so up to 10 pages) uploads as **one single
+PDF**, never split. B2 carries Part II plus the Funding ID table of current and submitted
+grants. References and Funding ID sit outside every page limit; nothing else does, and the
+limits are applied strictly — reviewers are instructed not to read past them. Supporting
+documents: host institution support letter, PhD certificate, ethics/security
+documentation, eligibility extension evidence.
 
 ## 3. Who reads what, and when
 
 This is the single most consequential fact about the format.
 
-**Step 1 — remote evaluation, then panel meeting.** *Panel members only read B1.* They
-are generalist scientists, serve for up to four rounds, and handle 10–15 proposals each.
-Up to 44 proposals per panel are selected for Step 2; those scored A are invited, B and C
-are rejected with feedback.
+**Step 1 — remote evaluation, then panel meeting.** Panel members read Part I and the
+CV/Track Record and *have no access to the other parts*. They are generalist scientists,
+serve for up to four rounds, and handle 10–15 proposals each; the panel may commission
+extra reviews from remote Step-1 experts. Up to 44 proposals per panel are retained for
+Step 2. Scores are A-invited, A-not-invited, B or C; only A-invited proceeds, and the
+rest are rejected with an evaluation report.
 
 **Step 2 — remote evaluation, then panel meeting with interview.** Panel members plus
-**external reviewers** — topic experts contracted ad hoc, reviewing a single proposal,
-remote only. They read B1, B2 and the Part A budget.
+**Remote Reviewers** — topic experts who review a single proposal, deliver written
+reviews and do not attend the meeting. They read Part I, Part II, the CV and the Part A
+budget and resources. The interview is about 30 minutes, PI remote and panel in the room:
+a presentation on the project outline, then questions — and the ERC warns explicitly that
+the questions may cover the detailed budget table. Parts I and II are read *together* at
+this step, so Part II must not repeat Part I.
 
 Two consequences:
 
@@ -109,19 +140,25 @@ Scientific excellence is assessed at two levels — **the research project**
 (ground-breaking nature, ambition) and **the principal investigator** (intellectual
 capacity, creativity).
 
-**Step 1 and 2 — project:**
+The wording below is Work Programme 2027, §1.6.5. **At Step 1 the project has exactly two
+questions.** Feasibility is not one of them — it was removed from Step 1 as of WP 2026 —
+so at Step 1 an approach has to read as *scientifically convincing*, which is a different
+and lower bar than *feasible*, and the place to prove feasibility is Part II.
 
-- To what extent does the proposed research address important scientific questions?
-- To what extent are the project's objectives ambitious, and will it advance the frontier of knowledge?
+**Step 1 and 2 — project (the ground-breaking nature and ambition of the Research Project):**
+
+- To what extent does the research address important scientific questions?
+- To what extent are the project's objectives ambitious, will the project advance the frontier of knowledge and is the proposed approach scientifically convincing?
 
 **Step 2 only — implementation:**
 
-- To what extent are the proposed research methodology and working arrangements appropriate to reach the goals of the project?
-- To what extent are the timescales and resources and PI commitment adequate and properly justified?
+- To what extent are the research methodology and working arrangements appropriate to achieve the goals of the project?
+- To what extent are the timescales and resources adequate and properly justified?
 
-**Steps 1 and 2 — PI:**
+**Steps 1 and 2 — PI (intellectual capacity and creativity):**
 
-- To what extent has the PI demonstrated the ability to conduct (i) ground-breaking research, and provides evidence of (ii) creative and original thinking?
+- To what extent has the PI demonstrated the ability to conduct ground-breaking research?
+- To what extent does the PI provide evidence of creative and original thinking?
 - To what extent does the PI have the required scientific expertise and capacity to successfully execute the project?
 
 ### What each question is actually asking
@@ -134,6 +171,9 @@ limitations and barriers that keep it unknown.
 originality, breadth and interdisciplinarity, and the verbs of knowledge production —
 *uncover, identify, assess, test whether*. Objectives phrased as deliverables ("build
 X", "release Y") score badly here; objectives phrased as knowledge claims score well.
+The third clause, **"scientifically convincing"**, is the only purchase Step 1 has on
+method, and it is satisfied by an approach whose *logic* a generalist can follow — why
+this route reaches this objective — not by protocols, sample sizes or contingency plans.
 
 **"Methodology and working arrangements"** means implementation and feasibility: which
 methods, technologies and models, and *why those*; inter- and multidisciplinarity; and
@@ -186,13 +226,21 @@ deserve real effort:
 **The acronym.** It is the handle the panel uses for your project through two steps of
 evaluation. Pick something pronounceable that encodes the idea.
 
-**The abstract** (2,000 characters including spaces, identical to the Part A summary,
-plain text, no formulae). It has an administrative job beyond first impressions: it is
-what the ERC shows to prospective external reviewers when allocating your proposal, so it
-partly determines *who reviews you*. Cover five elements in order: context, challenge,
-vision, objectives, impact. Contains no confidential information.
+**The abstract** — half a page on the cover page, a verbatim copy-paste of the Part A
+summary (2,000 characters including spaces in the submission form), plain text, no
+formulae. It has an administrative job beyond first impressions: it is what the ERC shows
+to prospective reviewers when allocating your proposal, so it partly determines *who
+reviews you*, and it is published if you are funded. Cover five elements in order:
+context, challenge, vision, objectives, impact. No confidential information. If the
+proposal is not in English, an English translation of the abstract is mandatory.
 
-## 7. Part B1 — scientific proposal I (5 pages)
+## 7. Part I of the Scientific Proposal (5 pages, in B1)
+
+The call states the job in three parts: (1) lay out the current state of knowledge,
+(2) explain the scientific question and the objectives of the project, (3) present the
+overall approach or research strategy. It must convince the panel that the proposal
+presents "an original and creative idea addressing an important question", and say what
+the project will *change, open or challenge* in the field.
 
 **The template provides no section headings.** That is a trap and an opportunity: you
 choose the structure, and a reader who cannot find the answer to an evaluation question
@@ -207,9 +255,13 @@ Recommended sections and page budget:
 | Research approach / strategy | 1.5 – 2 |
 | Why now, why me + Impact | 0.5 – 1 |
 
-References do not count against the limit. Formatting is mandatory and checked: A4,
-Times New Roman / Arial or similar, **font size ≥ 11**, margins 2.0 cm sides and 1.5 cm
-top and bottom, single line spacing.
+References do not count against the limit; the cover page does not either. Formatting is
+mandatory and checked: A4, Times New Roman / Arial or similar, **font size ≥ 11**, single
+line spacing, side margins 2 cm and bottom margin 1.5 cm. Every page must carry a header
+with the PI's last name, the acronym, and which part it belongs to. Compliance here is not
+cosmetic: reviewers are instructed to read only what fits inside the limits *provided the
+font instructions are respected*, so shrinking the type to fit is a way of having the
+squeezed-in material discarded rather than read.
 
 ### 7.1 Introduction / project rationale
 
@@ -322,9 +374,11 @@ you have written B2 twice.
 
 **Do not comment directly on feasibility.** Feasibility is something the reader must
 conclude, and asserting it invites doubt. Demonstrate it through the specificity of the
-approach and the relevance of your record. (Note also that "is the outlined scientific
-approach feasible?" appears to have been removed from the Step-1 question list — see
-[§12](#12-resolved-and-open-items).)
+approach and the relevance of your record. This is now doubly true: "is the outlined
+scientific approach feasible?" was **removed from the Step-1 question list** as of WP 2026
+(§[12](#12-what-this-was-checked-against)), so a Part I that argues feasibility is
+answering a question nobody at Step 1 is asking, at the cost of the ambition they *are*
+scoring.
 
 ### 7.9 Impact
 
@@ -377,12 +431,15 @@ notable achievements, outreach, open science, diversity work, legacy. Community
 infrastructure — benchmarks, shared tasks, large open collaborations — belongs here and
 is genuinely scoreable evidence of the "reference point in the field" criterion.
 
-## 9. Part B2 — scientific proposal II
+## 9. Part II of the Scientific Proposal (7 pages, = B2)
 
-**Audience:** panel members *and* external topic experts. **Function:** the technical,
-detailed implementation plan. It is complementary to B1 and reviewed together with B1
-and the online budget information — so it may compress what B1 established, but it must
-not contradict it, and it must not depend on the reader remembering B1 in detail.
+**Audience:** panel members *and* Remote Reviewers, who are topic experts.
+**Function:** in the call's own words, "a detailed explanation of the project
+implementation, including research methodology, work plan, risk assessment, and mitigating
+measures and any further necessary background not included in Part I". Parts I and II are
+reviewed together, so Part II may compress what Part I established and **must not repeat
+it** — but it must not contradict it either, and it cannot assume the reader has Part I
+memorised.
 
 Order of sections:
 
@@ -396,14 +453,16 @@ Order of sections:
 On page budget: most of B2 goes to project design and the work plan, with roughly one
 page — a little more — for risk analysis and concluding remarks. The deck's structure
 slide gives 2–3 pages for the recap, 2–4 for state of the art, 6 for design plus work
-plan, and 1 for Gantt plus risk; that sums to a 14-page B2 and needs rescaling to
-whatever the current limit is (see [§12](#12-resolved-and-open-items)). For a **7-page B2**,
-the proportions imply roughly: ½–1 page recap, 5 pages design and work plan, 1 page
-Gantt plus risk.
+plan, and 1 for Gantt plus risk; that sums to a 14-page Part II, which is the pre-2026
+limit (see [§12](#12-what-this-was-checked-against)). Rescaled to **7 pages**, the
+proportions imply roughly: ½–1 page recap, 5 pages design and work plan, 1 page Gantt plus
+risk.
 
-**Do not** put the resources or budget table in B2. Those live in Part A, section 3.
-References and the funding appendix do not count towards the page limit, and must not be
-uploaded separately.
+**Do not** reproduce the budget table in Part II. The table and its detailed justification
+live in Part A; Part II may explain resources where the work plan makes it natural, but it
+cannot deviate from Part A, and no budget information may be annexed (§11). References and
+the Funding ID appendix do not count towards the page limit, and must not be uploaded
+separately.
 
 ### 9.1 Project design
 
@@ -546,11 +605,19 @@ no indication of …".
 
 ## 11. Budget, resources and panel choice
 
-**Budget justification** goes in Part A, in 8,000 characters. B2 may add justification
-where it arises naturally in describing methodology or the work plan, but it **cannot
-deviate** from the Part A resources section, and the budget table must not appear in B2.
-Talk to your institution's grant support staff — this is the one section where local
-expertise beats general advice.
+**Budget justification** goes in Part A — the budget table plus a Resources text box of
+8,000 characters including spaces, which is silently truncated if you exceed it. Part II
+may add justification where it arises naturally in describing methodology or the work
+plan, and the call explicitly permits this, but the *detailed and exhaustive* breakdown
+must be in Part A, Part II **cannot deviate** from it, and no information about the budget
+may live anywhere else — an annex will not be accepted. Where the two disagree, the table
+prevails. Expect interview questions on the table itself. Talk to your institution's grant
+support staff — this is the one section where local expertise beats general advice.
+
+Additional funding (up to €1 M, or €2 M if you are based outside the EU or an Associated
+Country at the deadline) is requested in the same table and must be justified in the
+proposal; it is assessed with everything else, and it is not reduced pro rata for shorter
+projects.
 
 Cover: **personnel** (each member's profile and responsibility), **equipment** (solid
 justification, especially where other funding exists), **open access, dissemination and
@@ -566,39 +633,47 @@ panel to whether your B1 will land with it.
 
 ---
 
-## 12. Resolved and open items
+## 12. What this was checked against
 
-**B2 page limit: 7 pages — settled.** The sources in this repo disagreed, and the older
-number is wrong.
+Every number and quotation above was verified on **11 August 2026** against two primary
+sources, both of which govern the ERC-2027-StG and ERC-2027-CoG calls:
 
-| Source | Says |
-|---|---|
-| ERC, "Changes to the 2026 and 2027 Work Programmes" (2 June 2025) | **7 pages** for StG, CoG and AdG; 10 for Synergy |
-| ERC Work Programme 2026 | "Part II of the Scientific Proposal: up to **seven** pages" |
-| Information for Applicants (StG/CoG) | "strictly limited to **7**" |
-| Seminar deck, WP 2027 changes slide; recording; `b2.tex` header comment | **7 pages** |
-| Seminar deck structure slide (2–3 + 2–4 + 6 + 1); `ercformatting.sty` | a **14**-page B2 — pre-2026, stale |
+| Source | Version | Settles |
+|---|---|---|
+| *Information for Applicants to the Starting and Consolidator Grant 2027 Calls* | 11.0, 22 July 2026 | component names, page limits, layout, what each step sees, interview, budget rules |
+| *ERC Work Programme 2027* | C(2026) 4907, 20 July 2026 | evaluation elements verbatim (§1.6.5), eligibility windows, grant amounts, call dates |
 
-Two consequences. If your copy of the LaTeX template still prints "14 pages" in its
-instruction block, it predates the change and should be corrected. And a B2 that was
-written to the old limit is not half-full — it is over, and every addition from here
-displaces something.
+The Information for Applicants for **your own** call is the authority, not this file. It is
+reissued every July and its version history names the call it serves, so check that the
+version you are holding says 2027 (or later) and not 2026.
 
-References and the Funding ID appendix remain outside the limit.
+**Four things changed recently enough that older advice is actively wrong.**
 
-**Open — evaluation questions, what changed.** The deck shows the question list twice, the
-first version annotated "Changed" and "Removed". Comparing the two:
+*Part II is 7 pages, not 14.* The cut landed with WP 2026. If your LaTeX template still
+prints "14 pages" in its instruction block, it predates the change. A Part II written to
+the old limit is not half-full — it is over, and every addition from here displaces
+something.
 
-- Step 1's third question, *"To what extent is the outlined scientific approach
-  feasible?"*, is gone from the later version.
-- The Step 2 methodology question loses its second clause — from "(i) … appropriate, and
-  (ii) involve developing novel methodology?" to simply "appropriate to reach the goals of
-  the project?".
-- The Step 2 resources question gains "**and properly justified**".
+*Feasibility left Step 1.* Also WP 2026. The Step-1 project element now has two questions,
+neither of which asks whether the approach is feasible; the surviving clause asks whether
+it is *scientifically convincing*. A Part I that spends a page defending feasibility is
+spending it on a question no Step-1 reader is answering — and inviting a conservative
+verdict on ambition, which is what that reader *is* scoring.
 
-If that reading is right, novel methodology is no longer an explicit scoring clause
-(though it stays in the work-plan advice), and budget justification carries more weight
-than before.
+*Novel methodology is no longer a scoring clause.* The Step-2 methodology question used to
+ask whether the work would "involve developing novel methodology"; it now asks only whether
+the methodology and working arrangements are appropriate. Novel method still helps — it is
+evidence of ambition and of creative thinking — but it no longer has its own address.
+
+*The eligibility windows widened in WP 2027*, from 2–7 and 7–12 years post-PhD to 0–10 and
+5–15 (§2). Anyone told they were too early or too late for a Starting Grant under the old
+rule should recheck.
+
+*Also new in WP 2027, and not covered by this guide:* the **ERC Plus Grant** (€7 M, 48–84
+months, open to all career stages, roughly 30 awarded per year across all fields against
+about 1,000 StG/CoG/AdG), which adds its own evaluation question — whether the project
+addresses aims unreachable with a regular ERC grant. Everything here is written for StG and
+CoG.
 
 ---
 
@@ -625,9 +700,10 @@ The same three words label the checker's output (§13.3) and the comment macros 
 
 The evaluation questions are referred to below by the shorthands **Q1** important questions,
 **Q2** ambitious objectives / frontier, **Q3** methodology and working arrangements, **Q4**
-timescales and resources, **Q5** PI ground-breaking and creative, **Q6** PI expertise and
-capacity (§4). Q1, Q2, Q5 and Q6 are scored in Step 1 from B1 alone; Q3 and Q4 only in
-Step 2 (§3). Naming the question is what separates a finding from a preference.
+timescales and resources, **Q5** PI ground-breaking research, **Q6** PI creative and
+original thinking, **Q7** PI expertise and capacity (§4). Q1, Q2 and Q5–Q7 are scored in
+Step 1 from Part I and the CV alone; Q3 and Q4 only in Step 2 (§3). Naming the question is
+what separates a finding from a preference.
 
 And one standing rule: anything you cannot point to a location for is missing, not implicit.
 "It's implied by the objectives" is how proposals lose the criterion they thought they had
@@ -641,7 +717,7 @@ covered.
 | 1 | **Fundability** | Is this an ERC project, or an excellent next paper? | BLOCK on the framing |
 | 2 | **Problem** | Is there a nameable question, with an instability and a cost? | SCORE on Q1 |
 | 3 | **Layers** | Is each passage at its right altitude? | SCORE on Q1/Q2 |
-| 4 | **Step-1 sufficiency** | Can Q1, Q2, Q5, Q6 be scored from B1 alone? | SCORE on all four |
+| 4 | **Step-1 sufficiency** | Can Q1, Q2, Q5–Q7 be scored from B1 alone? | SCORE on all five |
 | 5 | **Criteria coverage** | Does every question have an address in the document? | SCORE, per question |
 | 6 | **Work plan** | Are work units and tasks correctly typed and bounded? | SCORE on Q3/Q4 |
 | 7 | **Argument mechanics** | Do the sentences carry the argument's joints? | SCORE or POLISH |
@@ -716,7 +792,7 @@ what makes a finding arguable on the merits instead of on taste.
 
 #### Stage 4 — Step-1 sufficiency
 
-- **B1 stands alone.** *Test:* close B2 entirely; passes when Q1, Q2, Q5 and Q6 can all be
+- **B1 stands alone.** *Test:* close B2 entirely; passes when Q1, Q2 and Q5–Q7 can all be
   scored from B1 (§3). *Cost:* all four, silently — the Step-1 panel never sees B2, so
   content parked there scores zero at the only stage that eliminates. *Suggest:* name what
   must be lifted into B1 and what it displaces from the five pages.
@@ -737,7 +813,7 @@ Take one question at a time and find its address. The recurring failures:
   2, plus what removed it.
 - **PI fit is shown, not claimed.** *Test:* CV opening plus the ten outputs; passes when a
   reader concludes you are the obvious person without the document saying so (§8). *Cost:*
-  Q5 and Q6. *Suggest:* replace the claim with the evidence that produced it; for CoG,
+  Q5–Q7. *Suggest:* replace the claim with the evidence that produced it; for CoG,
   weight independence and leadership, for StG, exceptional results (§4).
 - **Impact says why the findings generalise.** *Test:* passes when there is a *because*,
   not a list of adjacent fields (§7.9). *Cost:* Q1's relevance component. *Suggest:* name
@@ -748,7 +824,7 @@ Take one question at a time and find its address. The recurring failures:
   unscored claim. *Suggest:* delete the assertion; move the evidence to B2 §b.
 - **Ten outputs each carry significance, PI role, and project relevance.** *Test:* passes
   when no entry is a bare citation and non-paper artefacts are claimed explicitly (§8).
-  *Cost:* Q5, Q6. *Suggest:* one clause per output, in that order.
+  *Cost:* Q5–Q7. *Suggest:* one clause per output, in that order.
 
 #### Stage 6 — Work plan
 

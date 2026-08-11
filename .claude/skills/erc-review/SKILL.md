@@ -17,6 +17,12 @@ order: `./ERC_writing_guide.md`, `../erc-review/`, then
 `readlink -f ~/.claude/skills/erc-review` and walk up three levels. Set `ERC` to that
 directory and use `$ERC/tools/erc_check.py` throughout.
 
+**Check the kit is current before quoting a number from it.** Guide §12 names the call it
+was verified against and the date. The ERC reissues the *Information for Applicants* every
+July and page limits, eligibility windows and evaluation questions have all moved in recent
+work programmes. If the draft targets a later call than §12 names, say so in one line at the
+top of the report and treat the guide's §1–11 as argument rather than as authority.
+
 Two hard constraints. **Never invent** content — no fabricated citations, results, or
 claims about the PI's work; when a fix needs knowledge that is not in the draft, the output
 is a question, not a drafted sentence. **Never rewrite the argument silently** — see
@@ -41,7 +47,7 @@ many remain.
 | 1 | Fundability | Is this an ERC project rather than an excellent next paper? | guide §1, §13.2 T1 |
 | 2 | Problem | Is there a nameable question, with an instability and a cost to *these* readers? | §7.1–7.3 |
 | 3 | Layers | Is each passage at its right altitude — vision, aim, objective, work unit, task? | §5, §7.4, §7.5 |
-| 4 | Step-1 sufficiency | Can all four Step-1 questions be scored from B1 alone, by a generalist? | §3, §4 |
+| 4 | Step-1 sufficiency | Can all five Step-1 questions be scored from B1 alone, by a generalist? | §3, §4 |
 | 5 | Criteria coverage | Does every evaluation question have an address in the document? | §4, §7.6–7.9 |
 | 6 | Work plan | WP objective vs rationale, task shape, moonshots, risk, Gantt | §9 |
 | 7 | Argument mechanics | Topic/stress positions, old-before-new, named causality, claim support | §10 |
@@ -81,8 +87,8 @@ opinionated, and it is the one usually missing.
 2. **What** — the defect in one sentence, naming the rule: *"this is the rationale, not the
    objective (§9.2)"*.
 3. **Why it costs** — which evaluation question scores lower, and for which reader. *"A
-   Step-1 panel member scoring ground-breaking nature has nothing to point at; they read
-   only B1 (§3)."* If you cannot name the reader and the question, the finding is a
+   Step-1 panel member scoring ground-breaking nature has nothing to point at; they see
+   only Part I and the CV (§3)."* If you cannot name the reader and the question, the finding is a
    preference — drop it.
 4. **What to do** — either a concrete replacement drafted in the author's register, or the
    specific missing content plus where it goes. "Tighten this" is not a suggestion. A

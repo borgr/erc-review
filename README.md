@@ -102,11 +102,14 @@ it never silently rewrites an argument.
 
 ## Caveats
 
-**Verify the numbers against the current call.** Page limits and the evaluation questions
-changed between work programmes — B2 went from 14 pages to 7 for the 2026 programme, and
-feasibility left the Step-1 assessment. Guide §12 records what was checked, against which
-source, and what remains open. The authority is the "Information for Applicants" for your
-own call, not this repository.
+**Verify the numbers against your own call.** Everything here was checked on 11 August 2026
+against the *Information for Applicants to the Starting and Consolidator Grant 2027 Calls*
+(v11.0) and the *ERC Work Programme 2027*, and guide §12 records that plus the four things
+that changed recently enough that older advice is actively wrong — Part II went from 14
+pages to 7, feasibility left the Step-1 assessment, novel methodology stopped being a
+scoring clause, and the eligibility windows widened to 0–10 and 5–15 years post-PhD. The ERC
+reissues both documents each July. The authority is the pair for **your** call, not this
+repository.
 
 **This is one reading of one seminar plus the official forms.** Guide §13's ordering claim —
 that fixing framing before prose is strictly better — is an editorial position, not an ERC

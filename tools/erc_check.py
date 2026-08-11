@@ -36,8 +36,11 @@ from dataclasses import dataclass
 KIT = pathlib.Path(__file__).resolve().parent.parent  # where this script lives
 DEFAULT_PARTS = ("b1.tex", "b2.tex")
 
-# Page limits, ERC Work Programme 2026/2027, StG & CoG. See guide §12.
-PAGE_LIMITS = {"b1": 9, "b2": 7}  # B1 = 5pp synopsis + 4pp CV/track record
+# ERC-2027-StG / CoG: Information for Applicants v11.0, 22.07.2026. See guide §12.
+# b1 = cover page + Part I (5) + CV and Track Record (4); b2 = Part II (7).
+# References and Funding ID are outside the limits, so a compiled page count that
+# includes a bibliography over-reports — treat an overrun as a prompt to check by hand.
+PAGE_LIMITS = {"b1": 10, "b2": 7}
 ABSTRACT_CHAR_LIMIT = 2000
 
 # --- patterns -------------------------------------------------------------
@@ -452,7 +455,9 @@ def main() -> int:
             if n is None:
                 print(f"  {t.name}: could not compile")
             else:
-                flag = "" if limit is None or n <= limit else "  <- OVER LIMIT"
+                flag = ("" if limit is None or n <= limit
+                        else "  <- OVER LIMIT (references excluded from the limit;"
+                             " check by hand)")
                 print(f"  {t.name}: {n} pages"
                       + (f" of {limit} allowed{flag}" if limit else ""))
 
