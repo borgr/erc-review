@@ -45,8 +45,14 @@ finding needs the underlying rule.
   Weizmann Institute of Science, 21 July 2025 — Stewe Bekk (bekkresearchsupport.com)
   and Malte Beringer (sciencepoint.eu). © 2025 by the authors. The deck itself is not
   redistributed here.
-- **Secondary source:** the seminar recording, and follow-up notes on work-package and
-  task-level structure.
+- **Secondary source:** the seminar recordings — the 2026-call session above and the same
+  presenters' session for the **ERC-2027-StG/CoG** calls, held before the 2027 StG call
+  opened — plus follow-up notes on work-package and task-level structure. The 2027 session is
+  where the practitioner figures in [§2](#2-call-mechanics) and [§3](#3-who-reads-what-and-when)
+  (declared time commitment, readers per proposal) come from, and its recordings and notes are
+  not redistributable either. Where a session and the *Information for Applicants* disagree,
+  the document wins and the disagreement is flagged in place — see the budget note in
+  [§11.1](#111-the-budget-table).
 - **Tertiary source:** the official ERC instruction blocks carried in the community B1/B2
   LaTeX template, which reproduce the text of the official forms.
 - **Deliberately excluded:** the deck's worked examples drawn from active ERC projects
@@ -113,6 +119,47 @@ late.
 Deadlines shift each work programme: **ERC-2027-StG opened 22 July 2026 and closes
 14 October 2026; ERC-2027-CoG opens 24 September 2026 and closes 12 January 2027.**
 
+The **minimum** time commitments above are floors, not targets. Practitioners who see many
+funded applications report that competitive proposals typically declare **80–90 % for a
+Starting Grant and 60–70 % for a Consolidator**, and that a figure at or just above the
+floor reads as a PI who is not really going to run the project. The number is also
+load-bearing arithmetic rather than a gesture: it caps the PI's own personnel cost in the
+budget table ([§11.1](#111-the-budget-table)) and it is printed next to the figures for the
+Step-2 reviewers ([§3](#3-who-reads-what-and-when)).
+
+**Submission restrictions — check these before you write anything.** Separate from
+eligibility, and the part of the rules most likely to have moved since the last time you
+or your mentor applied. For WP 2027:
+
+- One proposal to an ERC main grant call **under evaluation** at any time, and only **one
+  eligible proposal** to any call published under WP 2027. Apply to two and only the first
+  eligible one is evaluated.
+- You may **hold** only one ERC main grant at a time, and a new project may only start
+  once the previous one has ended. If you currently hold a main frontier grant you may not
+  apply **unless that project ends less than two years after the call deadline** — the
+  rule that decides, years in advance, which call a current grantee can aim at.
+- Selected for funding and preparing a grant agreement under WP 2025 or WP 2026 → you may
+  not apply under WP 2027.
+- Held a StG → no StG. Held a CoG → no CoG. Serving on an ERC panel for WP 2027, or having
+  served for WP 2025 → no application for that same grant type (panels alternate years so
+  that members can apply in the off years).
+- **Outcome-based bars, which are the ones people are surprised by.** A **B or C at Step 1**
+  in the 2026 StG/CoG call bars you from every 2027 call — StG, CoG, AdG, Plus and Synergy.
+  A **C at Step 1** in 2025 also bars you from 2027. So a C costs two calls and a B costs
+  one, and "we will just resubmit next year" is not available after either. A or B at Step 2,
+  and A-not-invited at Step 1, carry **no restriction**. A rejection on the grounds of a
+  breach of research integrity bars everything.
+- Inadmissible, ineligible and withdrawn proposals do not count against any of these.
+
+Two consequences worth internalising. First, **the penalties have been tightening across
+work programmes**, so read the outcome table in the *Information for Applicants* for your
+own call rather than carrying forward what applied to a colleague two years ago
+([§12](#12-what-this-was-checked-against)). Second, because a weak submission can cost a
+year or two of eligibility rather than a few months, submitting a not-quite-ready proposal
+"for the feedback" is a much more expensive move than it used to be — which is part of why
+the timeliness argument ([§7.8](#78-why-now-why-me--page)) has to justify *this* call and
+not merely this decade.
+
 **What you submit.** The call names four components, and the two names for each one —
 what the ERC calls it, and which form it lives in — are worth keeping straight, because
 the evaluation is split along these lines and not along the file boundaries:
@@ -146,9 +193,21 @@ This is the single most consequential fact about the format.
 **Step 1 — remote evaluation, then panel meeting.** Panel members read Part I and the
 CV/Track Record and *have no access to the other parts*. They are generalist scientists,
 serve for up to four rounds, and handle 10–15 proposals each; the panel may commission
-extra reviews from remote Step-1 experts. Up to 44 proposals per panel are retained for
-Step 2. Scores are A-invited, A-not-invited, B or C; only A-invited proceeds, and the
-rest are rejected with an evaluation report.
+extra reviews from remote Step-1 experts, who may be members of other panels. Up to 44
+proposals per panel are retained for Step 2. Scores are A-invited, A-not-invited, B or C;
+only A-invited proceeds, and the rest are rejected with an evaluation report.
+
+In practice each B1 is assigned to about **three** panel members as named readers, and at
+Step 2 roughly **four to eight** Remote Reviewers are recruited per proposal — they may be
+non-European, they review a single proposal, and they never attend the meeting, so their
+contribution is written and unrebutted. The ERC does not publish either figure, so treat
+them as the shape of the audience rather than as a rule: a handful of generalists decide
+Step 1, and the technical depth of B2 is aimed at a genuinely small number of experts.
+
+Panel allocation is yours to propose, not yours to control: a proposal may be **reallocated
+to a different panel** where the required expertise sits elsewhere, with the agreement of
+both panel chairs, and you are told at the latest with the evaluation result
+([§11.4](#114-panel-keywords-and-who-will-not-review-you)).
 
 **Step 2 — remote evaluation, then panel meeting with interview.** Panel members plus
 **Remote Reviewers** — topic experts who review a single proposal, deliver written
@@ -296,6 +355,16 @@ where.
 | Research approach / strategy | 1.5 – 2 | [§7.7](#77-research-strategy-12-pages) |
 | Why now, why me + impact | 0.5 – 1 | [§7.8](#78-why-now-why-me--page), [§7.9](#79-impact--page) |
 
+Two things about this table. It is **tighter on the state of the art than the source
+advice is**: practitioners commonly suggest 1½–2 pages for the state of the art and the same
+again for the approach, which only fits inside five pages at the very bottom of both ranges
+once the introduction, objectives, timeliness and impact have been paid for. The brackets
+above are one way of making the arithmetic close; if you want a longer state of the art, the
+pages have to come from a named other band and not from the margin. The invariant that
+survives either split is the ordering: **the research approach should be at least as long as
+the state of the art**, because the balance between the two is itself an argument about
+whether the proposal is more interested in what has been done or in what you will do.
+
 References do not count against the limit; the cover page does not either. Formatting is
 mandatory and checked: A4, Times New Roman / Arial or similar, **font size ≥ 11**, single
 line spacing, side margins 2 cm and bottom margin 1.5 cm. Every page must carry a header
@@ -382,15 +451,47 @@ Use knowledge verbs: *develop the theory required to describe…*, *explore the 
 of…*, *determine whether…*, *demonstrate the ability of…*, *characterise…*. Avoid
 *implement*, *build*, *release*, *apply*.
 
+**"To understand" and "to study" are the two verbs to strike.** They are not wrong, they
+are open-ended — nothing about them can be checked at month 60, which is exactly the
+property an objective must not have. *To quantify*, *to identify*, *to reveal the mechanism
+by which*, *to determine whether* all name a state of knowledge that either exists at the
+end or does not. Watch also for the substitution of the **output for the objective**: "a
+public database of X" is a deliverable, and the objective it serves is whatever the
+database lets anyone conclude.
+
+**Format each objective as a bold standalone claim, then two or three sentences.** The bold
+sentence is what a panel member will read on the second pass and quote in the panel meeting,
+so it has to survive being extracted; the sentences that follow give the approach in
+outline and the connection to the neighbouring objectives. Cross-referencing them explicitly
+— "yielding the atomic-scale models relevant to the states addressed in O1 and O3" — is
+what stops a numbered list from reading as separable projects.
+
+**Order them so the risk rises.** If one objective is markedly more speculative than the
+rest, put it last and let the earlier ones stand on their own. A high-risk objective placed
+first forces the reader to ask what remains of the project if it fails, and every later page
+is read under that doubt; the same objective placed last reads as upside, and is the natural
+place for the one genuinely field-defining result you would like to claim. It is also fine
+for the project to be complete without it — say so.
+
 ### 7.6 State of the art (¾–1 page)
 
 - **Expose the field's current limitations** — this is an argument, not a survey.
 - **Tie each part to an objective.** The reader should be able to map SoA sub-area → objective.
-- **Divide into 3–4 sub-areas.** More becomes a literature review.
+- **Divide into 3–4 sub-areas**, each under its own visible heading. More becomes a
+  literature review.
 - **Highlight your own contributions** within it — this is where PI fit gets established
-  implicitly.
-- **State your plan to surpass it.** The section ends with what you will do that the
-  state of the art cannot.
+  implicitly. But *only* within it: a state of the art that cites mainly your own group
+  reads as unfair to the field, and the panel member most likely to notice is the one whose
+  work is missing. It has to be a summary your peers would sign.
+- **State your plan to surpass it.** One forward-looking sentence at the end of *each*
+  sub-area, not only at the end of the section, so that each barrier is answered where it
+  is raised.
+
+Inside each sub-area the reliable order is: current understanding and best available
+approach → its specific limitation → the technical, experimental or analytical barrier that
+has held the field there → one sentence on how the project moves past it. Written that way
+the section is an argument with four beats repeated three or four times, which is much
+easier for a generalist to follow than a continuous prose review of the field.
 
 ### 7.7 Research strategy (1½–2 pages)
 
@@ -402,6 +503,28 @@ innovation** in the approach.
 This is layer 2½ — enough about how to make the approach believable, not so much that
 you have written B2 twice.
 
+**How to build it.** Open with a global overview: the main conceptual steps, how they follow
+from the vision, and how the project unfolds over time — "unfolds" in the sense of *first
+this, which makes that answerable*, never a schedule. Then take it down one level into the
+major components, which will usually be the objectives but may instead be conceptual steps or
+lines of inquiry where the mapping is not one-to-one. For each component say which systems,
+datasets, models or theory it draws on, which question it addresses, and how it connects to
+the others. Two things must be explicit by the end: **how the parts work together** —
+experimental, computational and theoretical strands included — and **why this particular
+structure is the right fit for these questions**. Without the second, the section reads as a
+list of activities rather than a strategy, which is the single most common way this section
+fails.
+
+**What belongs in B2 instead.** Protocols and step-by-step technique, timelines and Gantt
+charts, task breakdowns, personnel assignments, risk tables and contingency plans. The moment
+you are writing any of those you have crossed from strategy into implementation. The one
+licence to go deeper is necessity: add technical detail only where the conceptual approach is
+unintelligible without it, and expect that threshold to sit differently in different panels.
+
+Note that the research strategy is a *recent* element — it arrived with WP 2026, and the
+ERC's own expectations for it are still settling, which is a reason to make the section's
+logic legible rather than to optimise it against precedent.
+
 ### 7.8 Why now, why me (¼–½ page)
 
 - **Timeliness** — why this question is answerable now and was not five years ago (a new
@@ -411,7 +534,19 @@ you have written B2 twice.
   finding that *raises* the project's questions: "our data show A, which prompts two
   questions: does B? and can we C?" — the result creates the project rather than
   pre-empting it.
-- **PI expertise** — why you.
+- **PI expertise** — why you. Two or three sentences, even though the CV covers it at
+  length: experience, expertise, and why you specifically are placed to do this now.
+
+**The balance on preliminary data is where most applicants get it wrong, in both
+directions.** Too much and the project reads as incremental — the hard part looks done, and
+what remains looks like execution. None at all, behind a bold claim, reads as wishful
+thinking. Include what you have, and be explicit about what it does *not* yet settle: these
+data show that A and B connect, and they opened the question of C, *which we cannot answer
+with them*. That sentence is simultaneously your evidence and your justification for needing
+the grant. Note also that anything you cite which is publicly available — a new instrument, a
+released dataset, a published method — is available to your competitors too, and therefore
+argues that the field is ready rather than that you are; only your own unpublished results do
+both.
 
 **Do not comment directly on feasibility.** Feasibility is something the reader must
 conclude, and asserting it invites doubt. Demonstrate it through the specificity of the
@@ -427,7 +562,12 @@ scoring.
   stress position for the whole of B1.
 - **Post-project prospects** and research continuity: which new avenues does success open?
 - **Scientific impact is the primary focus.** Societal or economic impact is welcome as a
-  consequence but is not the criterion.
+  consequence but is not the criterion — it is not evaluated at all, so it earns its space
+  only as a second- or third-order argument after the scientific case is made.
+- **Layer the claims rather than spreading them.** Name the uptake that matters to *this*
+  panel first and in detail, then the wider fields as potential extensions. Impact asserted
+  in every direction at once dilutes: the reader loses track of which consequence you
+  actually believe in, which is the opposite of the intended effect.
 
 The move that works: name the breakthroughs, then say what fields they seed and *why the
 findings generalise* beyond your system. "These findings have implications likely
@@ -459,10 +599,24 @@ content, and the panel reads the lineage as context for your career stage.
 **Current and previous positions.** Stress leadership and tenure status; list dual
 affiliations.
 
+**Mix prose with structure.** A CV that is only bullet points tells the panel nothing about
+a person; one that is only prose is exhausting to read at proposal fourteen of fifteen. The
+version that works opens with a short personal paragraph and then drops into structured
+lists for education and positions.
+
 **Research achievements — opening paragraph.** Write a narrative, not a list. Four
 elements: your background, what drives your research, a description of your research
 focus, and a showcase of your main expertise. This paragraph is where a generalist panel
-member forms their model of you.
+member forms their model of you. Two or three paragraphs is the working shape: the first
+looking back at contributions, recognition and leadership; the second on your present focus
+and active lines of inquiry; the third connecting both to *this* project and closing on a
+direct statement of expertise. Ending it with the claim in your own words — "this expertise
+places me to lead this project" — is better than leaving the panel to assemble the inference
+from a list twenty lines later.
+
+**First person or third, but never both.** Either is permitted. First person reads better and
+is the recommendation; what costs you is mixing them, which happens by default when a
+narrative paragraph is written fresh and the older list entries are pasted in.
 
 **Ten major research outputs.**
 
@@ -477,9 +631,37 @@ member forms their model of you.
   explicit instruction in the call, not a courtesy. Trimming an author list to fit the page,
   or promoting yourself to first author of an alphabetical list, is the kind of discrepancy a
   panel member checks and cannot unsee.
+- **Group them by area of expertise, not chronologically.** Two or three labelled groups
+  reinforce a scientific identity and make relevance to the project visible at a glance;
+  a reverse-chronological run of ten items makes the reader do that work themselves.
+  Recency still matters, but it is a weighting rule for *what you select*, not an ordering
+  rule for how you present it.
+- **Tie three or four of them to a specific objective or work package** — a marginal symbol
+  is enough — and no more. That is the link the evaluators are looking for. Tying all ten
+  produces the opposite impression: that the proposed project is work you have largely
+  already done.
+- **Citations and other indicators are fine; journal impact factors are not.** The ERC
+  assesses outputs on their own merits, in line with the DORA-style commitments now standard
+  across European funders, so a venue's impact factor is at best ignored and at worst reads
+  as not knowing the current rules. Selectivity figures for competitive things you *won* are
+  a different matter and do count — see peer recognition below.
+- **Preprints are allowed**, provided they are freely available from a preprint server and
+  properly referenced with a link. So is unpublished work, but it needs a stated reason for
+  being in the list: not "this is coming", but "this establishes my command of method X,
+  which WP2 depends on".
 
 **Peer recognition.** Grants, awards, prizes, honours; invited talks, presentations,
 keynotes; scientific evaluation and editorial reviewing; leadership roles.
+
+Open the list with one framing sentence saying what the items below are meant to show,
+rather than dropping straight into entries — a small addition that turns a dump into an
+argument. Order most recent first, and where an item's weight is not self-evident to a
+generalist, annotate it in a clause: a success rate ("13 % success rate"), the size of the
+field, the fact that a talk was the plenary. This is also the place for recognition you had
+to **give up**: a fellowship declined because you accepted another, or a grant reduced
+because you moved country, is evidence of having won it. One parenthetical line does it —
+"awarded €X, retained €Y on relocation", "declined in favour of the position at Y" — and
+omitting it silently loses you credit you earned.
 
 **Career breaks, diverse career paths and major life events.** Explain breaks or
 non-linear paths; you may discuss the effect of long-term illness or pandemic
@@ -592,6 +774,19 @@ outcomes block produces a nested structure that repeats itself and burns pages. 
 package's objective and rationale apply to all its tasks; each task then just needs
 *question → approach → contribution*.
 
+Three details inside the approach sentences do disproportionate work, and all three are
+cheap:
+
+- **Name who does it.** A task attached to a named postdoc, student profile or collaborator
+  is a task with a resource behind it, and it silently connects the work plan to the budget.
+- **Include the check.** One clause saying how you will know the step worked — benchmarking
+  against known values, a validation on held-out or spiked samples, a control condition —
+  tells the reviewer *why* the step is there and not merely that it happens.
+- **Say what you do if it does not work**, in one clause, where the risk is specific to this
+  task: "if separation proves insufficient we will instead …". Task-level fallbacks are not a
+  substitute for the risk section; they are what stop the reviewer from writing the objection
+  down in the first place.
+
 ### 9.4 Moonshot tasks (¼ page, 150–200 words)
 
 For the one task in a work package that is deliberately far more ambitious and far less
@@ -646,6 +841,24 @@ theory than the work package promised.
 - **Why do you need to take the risk?** The question that turns a risk section from
   defensive into ambitious. Every work package needs a stated risk and a fallback that
   still yields a result.
+
+**Technical risks go in a table** — risk, probability, impact, contingency — and it is worth
+adding the expected outcome of plan B beside that of plan A, because the comparison is what
+shows why plan A is the one you are backing rather than an arbitrary first choice. Keep the
+table short and specific: a risk register listing every way research can disappoint reads as
+padding, and the point is a few well-chosen high-risk elements, deliberately taken.
+
+**Conceptual risks belong outside the table.** If the risk is that the central hypothesis
+does not hold, that is not a probability-times-impact cell — it is a paragraph, and what it
+has to answer is what the project still establishes if the hypothesis fails. A negative
+result that settles a live question is a result; a project that only works if you were right
+is a gamble.
+
+**Do not end B2 on risk.** Close with concluding remarks — a short paragraph restating the
+ambition, why it matters, how the project moves the field, why the plan is deliverable, and
+what success opens up. This is the last thing a Step-2 reviewer reads before scoring, and the
+stress position should hold the case for funding rather than the list of things that could go
+wrong.
 
 ## 10. Sentence-level rules for the implementation sections
 
@@ -716,8 +929,12 @@ Four things about the table that cost people grants rather than points:
 - **Equipment is a depreciation cost by default.** Full capitalised cost is possible by
   exception, and only for items **listed and justified in the proposal** — so the decision
   has to be made while you are still writing, not at grant preparation.
-- **Unjustified budgets are cut, not queried.** The panel assesses the estimate; the
-  reduction happens without a conversation.
+- **Unjustified budgets are cut, not queried.** The call's own words: "The evaluation panels
+  assess the estimated costs carefully; unjustified budgets will be reduced." The reduction
+  happens without a conversation. You will hear the opposite claim in practitioner
+  circles — that panels no longer trim, they take the request or leave it — and for the 2027
+  call it is contradicted by the *Information for Applicants*, which still carries that
+  sentence in the Resources instructions. Write to the document.
 
 Two eligible categories that applicants routinely leave out: **care costs** directly caused
 by the project — childcare during fieldwork, conferences, visits to large facilities — where
@@ -762,7 +979,17 @@ worth writing precisely.
 You choose the primary panel and, if the proposal is genuinely cross-disciplinary, a
 secondary one; up to four ERC keywords from the call's own list, each covering a research
 area. This choice determines who reads you in Step 1 — which, given that Step 1 is decided by
-generalists reading only B1, is a strategic decision rather than an administrative one. The
+generalists reading only B1, is a strategic decision rather than an administrative one.
+
+There are **28 panels: PE1–PE11** in physical sciences and engineering, **LS1–LS9** in life
+sciences, **SH1–SH8** in social sciences and humanities, each with its own budget share, so
+the panel you pick is also the pool you compete in. The keyword limit of four is a maximum
+and not a target: **naming one or two keywords that genuinely describe the proposal steers
+allocation more reliably than four**, because a spread of keywords across sub-areas invites
+allocation to whichever of them the panel is least equipped for. Allocation can also be
+changed without you — the panel may hand a proposal to another panel where the expertise
+sits, with both chairs' agreement ([§3](#3-who-reads-what-and-when)) — which is one more
+reason to make the primary choice unambiguous. The
 ERC publishes past panel membership at
 [erc.europa.eu/apply-grant/panel-members](https://erc.europa.eu/apply-grant/panel-members); work
 backwards from the composition of a panel to whether your B1 will land with it. A
@@ -793,7 +1020,13 @@ The Information for Applicants for **your own** call is the authority, not this 
 reissued every July and its version history names the call it serves, so check that the
 version you are holding says 2027 (or later) and not 2026.
 
-**Four things changed recently enough that older advice is actively wrong.**
+The **submission restrictions** in [§2](#2-call-mechanics), the panel structure and keyword
+rules in [§11.4](#114-panel-keywords-and-who-will-not-review-you), and the budget-reduction
+sentence in [§11.1](#111-the-budget-table) were checked on **14 August 2026** against the
+same *Information for Applicants* — §1.2 and the outcome table for the restrictions, Annex 4.1
+for the panels, Section C of the budget instructions for the reduction.
+
+**Five things changed recently enough that older advice is actively wrong.**
 
 *Part II is 7 pages, not 14.* The cut landed with WP 2026. If your LaTeX template still
 prints "14 pages" in its instruction block, it predates the change. A Part II written to
@@ -814,6 +1047,14 @@ evidence of ambition and of creative thinking — but it no longer has its own a
 *The eligibility windows widened in WP 2027*, from 2–7 and 7–12 years post-PhD to 0–10 and
 5–15 ([§2](#2-call-mechanics)). Anyone told they were too early or too late for a Starting Grant under the old
 rule should recheck.
+
+*The resubmission penalties have been tightening, and they are the rule most often quoted from
+memory.* Under WP 2027 a B or C at Step 1 in the 2026 call bars every 2027 call, and a C at
+Step 1 reaches back two years ([§2](#2-call-mechanics)) — so a weak submission now costs
+eligibility, not just time. The direction of travel is towards longer bars as application
+volumes rise, which means the outcome table has to be read in the *Information for Applicants*
+for the call you are actually submitting to; the version in a colleague's notes from two years
+ago is the wrong one, whichever way it errs.
 
 *Also new in WP 2027, and not covered by this guide:* the **[ERC Plus Grant](https://erc.europa.eu/apply-grant/erc-plus-grant)** (€7 M, 48–84
 months, open to all career stages, roughly 30 awarded per year across all fields against
@@ -883,6 +1124,13 @@ what makes a finding arguable on the merits instead of on taste.
 
 #### Stage 1 — Fundability
 
+- **The PI may actually submit this.** *Test:* PhD defence date inside the window, no prior
+  grant of the same type, no outcome-based bar from the last two calls, and any current ERC
+  project ending within two years of the deadline ([§2](#2-call-mechanics)). *Cost:* the
+  whole application — these are checked administratively before any reviewer reads a word,
+  and a bar means the proposal is not evaluated at all. *Suggest:* settle it with the grants
+  office in the first conversation, not the last; if a bar applies, the question becomes
+  which call to target and the draft is not wasted.
 - **A step change exists.** *Test:* read the vision and objectives against the PI's last
   three papers; passes when the project is not their natural continuation and the
   before/after state of the field is stateable in one sentence. *Cost:* Q2 — the panel's
