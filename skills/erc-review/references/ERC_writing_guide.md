@@ -28,9 +28,9 @@ Sections are cited by number throughout the review protocol, the checker's outpu
 | 4 | [The evaluation questions](#4-the-evaluation-questions) | the scored questions verbatim · [what each is asking](#what-each-question-is-actually-asking) · [the PI criteria](#the-pi-criteria-and-where-stg-and-cog-diverge) |
 | 5 | [The four layers](#5-the-four-layers) | challenge/vision/aim · objectives · work units · tasks |
 | 6 | [Part B1 — cover page and abstract](#6-part-b1--cover-page-and-abstract) | acronym, the 2,000-character abstract and its administrative job |
-| 7 | [Part I of the Scientific Proposal](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) | [7.1 rationale](#71-introduction--project-rationale-½¾-page) · [7.2 limitations vs barriers](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own) · [7.3 falsifiable challenge](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) · [7.4 vision vs aim](#74-vision-versus-overarching-aim-¼-page) · [7.5 objectives](#75-objectives-½¾-page) · [7.6 state of the art](#76-state-of-the-art-¾1-page) · [7.7 strategy](#77-research-strategy-1½2-pages) · [7.8 why now, why me](#78-why-now-why-me-¼½-page) · [7.9 impact](#79-impact-¼½-page) |
+| 7 | [Part I of the Scientific Proposal](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) | [7.1 rationale](#71-introduction--project-rationale--page) · [7.2 limitations vs barriers](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own) · [7.3 falsifiable challenge](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) · [7.4 vision vs aim](#74-vision-versus-overarching-aim--page) · [7.5 objectives](#75-objectives--page) · [7.6 state of the art](#76-state-of-the-art-1-page) · [7.7 strategy](#77-research-strategy-12-pages) · [7.8 why now, why me](#78-why-now-why-me--page) · [7.9 impact](#79-impact--page) |
 | 8 | [Part B1 — CV and track record](#8-part-b1--cv-and-track-record-4-pages) | the four-page template and how to divide it, the ten outputs, what each entry must carry |
-| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | how the seven pages divide · [9.1 project design](#91-project-design-¾-page-figure-included) · [9.2 WP objective vs rationale](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan) · [9.3 tasks](#93-tasks-½-page-each-inside-the-work-plan-budget) · [9.4 moonshots](#94-moonshot-tasks-¼-page-150200-words) · [9.5 risk](#95-risk-assessment-½-page-with-the-gantt-chart-alongside) |
+| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | how the seven pages divide · [9.1 project design](#91-project-design--page-figure-included) · [9.2 WP objective vs rationale](#92-work-packages-objective-versus-rationale-4-pages-for-the-whole-work-plan) · [9.3 tasks](#93-tasks--page-each-inside-the-work-plan-budget) · [9.4 moonshots](#94-moonshot-tasks--page-150200-words) · [9.5 risk](#95-risk-assessment--page-with-the-gantt-chart-alongside) |
 | 10 | [Sentence-level rules](#10-sentence-level-rules-for-the-implementation-sections) | named causality, active voice where a human acts |
 | 11 | [Budget, resources and panel choice](#11-budget-resources-and-panel-choice) | [11.1 the budget table's five cost categories](#111-the-budget-table) · [11.2 the 8,000-character Resources box](#112-the-resources-text-box) · [11.3 additional funding](#113-additional-funding) · [11.4 panel, keywords, excluded reviewers](#114-panel-keywords-and-who-will-not-review-you) |
 | 12 | [What this was checked against](#12-what-this-was-checked-against) | versions, dates, and the four things older advice gets wrong |
@@ -290,10 +290,10 @@ can say from where.
 
 | Band | Pages | Covered in |
 |---|---|---|
-| Introduction / project rationale + vision | 1 – 1.5 | [§7.1](#71-introduction--project-rationale-½¾-page), [§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own), [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), [§7.4](#74-vision-versus-overarching-aim-¼-page) |
-| Objectives + state of the art | 1.5 – 2 | [§7.5](#75-objectives-½¾-page), [§7.6](#76-state-of-the-art-¾1-page) |
-| Research approach / strategy | 1.5 – 2 | [§7.7](#77-research-strategy-1½2-pages) |
-| Why now, why me + impact | 0.5 – 1 | [§7.8](#78-why-now-why-me-¼½-page), [§7.9](#79-impact-¼½-page) |
+| Introduction / project rationale + vision | 1 – 1.5 | [§7.1](#71-introduction--project-rationale--page), [§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own), [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), [§7.4](#74-vision-versus-overarching-aim--page) |
+| Objectives + state of the art | 1.5 – 2 | [§7.5](#75-objectives--page), [§7.6](#76-state-of-the-art-1-page) |
+| Research approach / strategy | 1.5 – 2 | [§7.7](#77-research-strategy-12-pages) |
+| Why now, why me + impact | 0.5 – 1 | [§7.8](#78-why-now-why-me--page), [§7.9](#79-impact--page) |
 
 References do not count against the limit; the cover page does not either. Formatting is
 mandatory and checked: A4, Times New Roman / Arial or similar, **font size ≥ 11**, single
@@ -513,10 +513,10 @@ subsection headings are these numbers:
 | Section | Pages | Covered in |
 |---|---|---|
 | Compressed recap: intro, vision, objectives, state of the art | ½ – 1 | this section |
-| Project design, with the objectives-to-work-units figure | ¾ | [§9.1](#91-project-design-¾-page-figure-included) |
-| Work plan — every work package, task and moonshot | 4½ | [§9.2](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan), [§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks-¼-page-150200-words) |
-| Gantt chart | ¼ | [§9.1](#91-project-design-¾-page-figure-included) |
-| Risk analysis and concluding remarks | ½ | [§9.5](#95-risk-assessment-½-page-with-the-gantt-chart-alongside) |
+| Project design, with the objectives-to-work-units figure | ¾ | [§9.1](#91-project-design--page-figure-included) |
+| Work plan — every work package, task and moonshot | 4½ | [§9.2](#92-work-packages-objective-versus-rationale-4-pages-for-the-whole-work-plan), [§9.3](#93-tasks--page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks--page-150200-words) |
+| Gantt chart | ¼ | [§9.1](#91-project-design--page-figure-included) |
+| Risk analysis and concluding remarks | ½ | [§9.5](#95-risk-assessment--page-with-the-gantt-chart-alongside) |
 
 The work plan is four fifths of what is left after the recap, which is the allocation to
 defend if something has to give. Advice written for the old 14-page Part II implies a much
@@ -912,7 +912,7 @@ what makes a finding arguable on the merits instead of on taste.
   state of the art; passes when one sentence says *what* is unknown and a different
   sentence says *why* it has stayed unknown ([§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own)). *Cost:* Q1 — the "limitations and
   barriers" component is scored explicitly. *Suggest:* if only limitations exist, ask what
-  blocked prior attempts; that answer is usually also the why-now ([§7.8](#78-why-now-why-me-¼½-page)).
+  blocked prior attempts; that answer is usually also the why-now ([§7.8](#78-why-now-why-me--page)).
 - **The challenge is falsifiable.** *Test:* passes when no challenge statement rests on
   "poorly understood", "remains unclear", "little is known" ([§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), machine-checked).
   *Cost:* Q1. *Suggest:* replace with the specific claim that would have to be wrong.
@@ -920,12 +920,12 @@ what makes a finding arguable on the merits instead of on taste.
 #### Stage 3 — Layers
 
 - **Vision and aim are separate.** *Test:* passes when the vision outlives the grant, the
-  aim completes inside 60 months, and neither paraphrases the other ([§7.4](#74-vision-versus-overarching-aim-¼-page)). *Cost:* Q2 —
+  aim completes inside 60 months, and neither paraphrases the other ([§7.4](#74-vision-versus-overarching-aim--page)). *Cost:* Q2 —
   a vision-shaped aim reads as unachievable, an aim-shaped vision as unambitious; both lose
   the same point. *Suggest:* keep both sentences and label them.
 - **3–5 objectives, each a knowledge claim.** *Test:* passes when each opens with a verb of
   knowledge production — uncover, identify, assess, test whether — is verifiable, and the
-  dependencies between them are stated ([§7.5](#75-objectives-½¾-page)). *Cost:* Q2, where deliverable-phrased
+  dependencies between them are stated ([§7.5](#75-objectives--page)). *Cost:* Q2, where deliverable-phrased
   objectives are explicitly marked down. *Suggest:* convert "build X" into the claim that
   building X lets you test.
 - **No B1 paragraph is describing a task, no B2 work package floats free of an objective.**
@@ -952,14 +952,14 @@ Take one question at a time and find its address. The recurring failures:
 
 - **Timeliness is argued, not asserted.** *Test:* the why-now section; passes when a
   specific thing changed — a method, a dataset, a result, a preliminary finding of the PI's.
-  "The field is ready" does not count ([§7.8](#78-why-now-why-me-¼½-page)). *Cost:* Q2. *Suggest:* the barrier from stage
+  "The field is ready" does not count ([§7.8](#78-why-now-why-me--page)). *Cost:* Q2. *Suggest:* the barrier from stage
   2, plus what removed it.
 - **PI fit is shown, not claimed.** *Test:* CV opening plus the ten outputs; passes when a
   reader concludes you are the obvious person without the document saying so ([§8](#8-part-b1--cv-and-track-record-4-pages)). *Cost:*
   Q5–Q7. *Suggest:* replace the claim with the evidence that produced it; for CoG,
   weight independence and leadership, for StG, exceptional results ([§4](#4-the-evaluation-questions)).
 - **Impact says why the findings generalise.** *Test:* passes when there is a *because*,
-  not a list of adjacent fields ([§7.9](#79-impact-¼½-page)). *Cost:* Q1's relevance component. *Suggest:* name
+  not a list of adjacent fields ([§7.9](#79-impact--page)). *Cost:* Q1's relevance component. *Suggest:* name
   the mechanism of transfer — a principle, not a method.
 - **Feasibility is demonstrated, never asserted.** *Test:* search for "feasible"; passes
   when there are no hits and the specificity of the approach does the work. *Cost:* in
@@ -973,23 +973,23 @@ Take one question at a time and find its address. The recurring failures:
 
 - **Every WP has a one-sentence objective that is an outcome, and a 2–5 sentence rationale
   that is a need.** *Test:* the WP opening; passes when the objective names what will exist
-  and the rationale names why the WP is required ([§9.2](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan)). *Cost:* Q3 — the external expert
+  and the rationale names why the WP is required ([§9.2](#92-work-packages-objective-versus-rationale-4-pages-for-the-whole-work-plan)). *Cost:* Q3 — the external expert
   reads the work plan for whether conclusions can be drawn. *Suggest:* they are usually both
   present and both labelled "objective"; relabel one.
 - **Objectives map visibly to work packages.** *Test:* B2 project design; passes when a
-  figure shows the mapping and the dependencies ([§9.1](#91-project-design-¾-page-figure-included)). *Cost:* Q3, Q4. *Suggest:* a table
+  figure shows the mapping and the dependencies ([§9.1](#91-project-design--page-figure-included)). *Cost:* Q3, Q4. *Suggest:* a table
   is enough if a figure will not fit.
 - **Every task reads purpose → approach → contribution, as prose.** *Test:* each
   `\paragraph`; passes when no task carries its own objective/rationale/sub-task scaffolding
-  and the length matches 1–2 + 4–8 + 1–3 sentences ([§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), length machine-flagged). *Cost:*
+  and the length matches 1–2 + 4–8 + 1–3 sentences ([§9.3](#93-tasks--page-each-inside-the-work-plan-budget), length machine-flagged). *Cost:*
   Q3. *Suggest:* the missing element is nearly always the expected contribution.
 - **Each moonshot is bounded and informative either way.** *Test:* passes when it names the
   specific uncertainty, says what a negative result teaches, and states that the WP's
-  objectives survive without it ([§9.4](#94-moonshot-tasks-¼-page-150200-words)). *Cost:* Q2 if absent, Q3 if unbounded. *Suggest:*
+  objectives survive without it ([§9.4](#94-moonshot-tasks--page-150200-words)). *Cost:* Q2 if absent, Q3 if unbounded. *Suggest:*
   add the sentence that says the other tasks form a complete project alone — and do not
   apologise for the risk.
 - **Risk analysis answers *why take this risk*.** *Test:* passes when each risk has a
-  classification, a contingency, and a fallback that still yields a result ([§9.5](#95-risk-assessment-½-page-with-the-gantt-chart-alongside)). *Cost:*
+  classification, a contingency, and a fallback that still yields a result ([§9.5](#95-risk-assessment--page-with-the-gantt-chart-alongside)). *Cost:*
   Q3, Q4. *Suggest:* a fallback that yields nothing is a reason to cut the task.
 - **Gantt shows decision points.** *Test:* passes when go/no-go moments are visible, not
   just durations. *Cost:* Q4. *Suggest:* mark them on the existing chart.
@@ -1042,7 +1042,7 @@ Each finding prints `file:line [code] message (guide §)`.
 | `funding-blank` | Funding ID table with no entries and no "No funding" | [§2](#2-call-mechanics) |
 | `abstract-long` / `abstract-thin` | abstract outside the 2,000-character budget | [§6](#6-part-b1--cover-page-and-abstract) |
 | `vague-challenge` | "poorly understood", "remains unclear", "little is known", … | [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) |
-| `objective-deliverable` | objective opening with build/implement/release | [§7.5](#75-objectives-½¾-page) |
+| `objective-deliverable` | objective opening with build/implement/release | [§7.5](#75-objectives--page) |
 | `stray-note` | drafting fragments that render as body text | — |
 | `causality` | "and then", sentences opening "Then", stacked "and we will" | [§10](#10-sentence-level-rules-for-the-implementation-sections) |
 | `passive` | `will be …ed` where a human is the agent | [§10](#10-sentence-level-rules-for-the-implementation-sections) |
@@ -1050,7 +1050,7 @@ Each finding prints `file:line [code] message (guide §)`.
 
 It also prints a **structure report** — every section, subsection and task with word and
 sentence counts, flagging tasks shorter than purpose+approach+contribution needs and
-moonshots over ~200 words ([§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks-¼-page-150200-words)) — and, with `--pages`, page counts against the limits.
+moonshots over ~200 words ([§9.3](#93-tasks--page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks--page-150200-words)) — and, with `--pages`, page counts against the limits.
 
 The two compliance items no script can check: B1 must be one combined PDF with sections,
 references and appendix never uploaded separately ([§2](#2-call-mechanics)), and B2 must contain no budget table
