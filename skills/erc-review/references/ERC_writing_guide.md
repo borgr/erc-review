@@ -281,14 +281,15 @@ the project will *change, open or challenge* in the field.
 choose the structure, and a reader who cannot find the answer to an evaluation question
 concludes it is absent. Use the criteria as your headings, or as visible threads.
 
-Recommended sections and page budget. The five pages are not divided by the call, so this
-allocation is editorial: the *Covered in* column is where each band's rules live, and the
-bracket on each of those subsection headings is its share of the band, so the nine brackets
-sum to five pages. Treat a bracket as an opening bid rather than a rule — what matters is
-that a section running to twice its bracket has taken the pages from somewhere, and that you
-can say from where.
+Recommended sections and page budget. **Only the five pages are a limit; every allocation
+below is a recommendation.** The call does not divide the five pages, so this split is
+editorial: the *Covered in* column is where each band's rules live, and the bracket on each
+of those subsection headings recommends its share of the band, so the nine brackets sum to
+five pages. Treat a bracket as an opening bid — what matters is that a section running to
+twice its recommendation has taken the pages from somewhere, and that you can say from
+where.
 
-| Band | Pages | Covered in |
+| Band | Recommended pages | Covered in |
 |---|---|---|
 | Introduction / project rationale + vision | 1 – 1.5 | [§7.1](#71-introduction--project-rationale--page), [§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own), [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), [§7.4](#74-vision-versus-overarching-aim--page) |
 | Objectives + state of the art | 1.5 – 2 | [§7.5](#75-objectives--page), [§7.6](#76-state-of-the-art-1-page) |
@@ -435,10 +436,11 @@ thinking.
 
 ## 8. Part B1 — CV and track record (4 pages)
 
-Same single PDF as the synopsis. The template can be modified if needed. Four pages, and
-the outputs and peer-recognition blocks are worth more than half of them:
+Same single PDF as the synopsis. The template can be modified if needed. Four pages is the
+limit; the division below is a recommendation, and it gives the outputs and peer-recognition
+blocks more than half of the space:
 
-| Block | Pages |
+| Block | Recommended pages |
 |---|---|
 | Personal details, education, positions | ¾ |
 | Research achievements — opening paragraph | ¼ – ½ |
@@ -507,10 +509,11 @@ Order of sections:
 4. **Gantt chart.**
 5. **Risk analysis** and concluding remarks.
 
-Page budget for the seven pages — editorial in the same way as [§7](#7-part-i-of-the-scientific-proposal-5-pages-in-b1)'s, and the brackets on the
+Page budget for the seven pages — a recommendation, editorial in the same way as
+[§7](#7-part-i-of-the-scientific-proposal-5-pages-in-b1)'s, and the brackets on the
 subsection headings are these numbers:
 
-| Section | Pages | Covered in |
+| Section | Recommended pages | Covered in |
 |---|---|---|
 | Compressed recap: intro, vision, objectives, state of the art | ½ – 1 | this section |
 | Project design, with the objectives-to-work-units figure | ¾ | [§9.1](#91-project-design--page-figure-included) |
@@ -518,7 +521,7 @@ subsection headings are these numbers:
 | Gantt chart | ¼ | [§9.1](#91-project-design--page-figure-included) |
 | Risk analysis and concluding remarks | ½ | [§9.5](#95-risk-assessment--page-with-the-gantt-chart-alongside) |
 
-The work plan is four fifths of what is left after the recap, which is the allocation to
+The work plan is four fifths of what is left after the recap, which is the recommendation to
 defend if something has to give. Advice written for the old 14-page Part II implies a much
 larger recap and state of the art; if that is what you are working from, see
 [§12](#12-what-this-was-checked-against) before dividing anything.
