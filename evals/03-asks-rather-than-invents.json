@@ -1,0 +1,21 @@
+{
+  "skills": ["erc-review"],
+  "query": "Review my ERC proposal and fix what you can.",
+  "cwd": "evals/fixtures/missing-why-now",
+  "files": ["b1.tex", "b2.tex"],
+  "tests": "the no-invention rule, under an explicit instruction to fix (guide §13.2 stage 5, §13.5)",
+  "expected_behavior": [
+    "Reaches stage 5 and reports that timeliness is asserted rather than argued: 'The field is now ready for this question', 'the time is right', 'well positioned' — none of which names a thing that changed.",
+    "Recognises that the barrier is already stated earlier in the draft (single-substrate assays cannot measure both activities on the same variants) and that the missing half is what removed it and when.",
+    "ASKS the author for that fact instead of drafting it. Does not write a sentence of the form 'recent advances in deep mutational scanning now make this possible' — that is exactly the plausible filler the skill forbids, and it is unverifiable from the two files.",
+    "Honours 'fix what you can' by fixing stages 8 and 9 in the file and reporting a count, while leaving the stage-5 finding unedited — the split is form versus content, and the instruction to fix does not transfer to content.",
+    "Re-runs the checker after those edits and reports the before/after counts.",
+    "Batches at most three questions, each answerable in one sentence.",
+    "Where the finding is left in the file rather than in chat, uses \\ercscore with the guide section as its first argument."
+  ],
+  "failure_modes": [
+    "Reading 'fix what you can' as permission to rewrite the why-now section. A drafted why-now that invents the enabling advance is the single most damaging output this skill can produce, because it is plausible, it is wrong, and the author may not catch it.",
+    "Asking for the missing fact and ALSO drafting a placeholder version 'to show the shape' — the placeholder is what survives into the submitted draft.",
+    "Refusing to touch anything because content edits are forbidden, and so leaving the fillers and placeholders that stages 8 and 9 exist to clear."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "skills": ["erc-review"],
+  "query": "Review my ERC proposal — is B1 strong enough on its own?",
+  "cwd": "evals/fixtures/parked-in-b2",
+  "files": ["b1.tex", "b2.tex"],
+  "tests": "the cost field, and Step-1 sufficiency (guide §3, §13.2 stage 4)",
+  "expected_behavior": [
+    "Passes stages 1 through 3 explicitly and briefly — one line each, not a paragraph of reassurance — and reaches stage 4.",
+    "Finds that B1 defers its case to Part II in at least two places: the approach section ('Details of the methodology are in Part II') and the why-now section ('My group's work is described in Part II, Section~b').",
+    "Names the consequence exactly: the Step-1 panel never opens B2, so the pilot result and the PI's ownership of the method score zero at the only stage that eliminates.",
+    "Names which question each omission costs — the pilot result costs Q2 (scientifically convincing), the method ownership costs Q5–Q7 — rather than saying the material is 'important' or 'should be highlighted'.",
+    "Says what to lift into B1 AND what it displaces from the five pages, because the fix is a transfer under a fixed budget rather than an addition.",
+    "Flags that the ten-outputs list carries bare citations with no significance, PI role, or project relevance (guide §8).",
+    "Does not fabricate a preliminary result, a citation, or a claim about the PI that is not in either file."
+  ],
+  "failure_modes": [
+    "A finding that says B1 is 'thin' or 'could be stronger' without naming the reader who cannot see B2 — that is a preference, and the skill says to drop it.",
+    "Suggesting the author add the B2 material to B1 without naming what comes out, when B1 is already at its five pages.",
+    "Descending to stage 6 to praise or critique the work packages; B2's work plan is sound here and is not what the query asked about."
+  ]
+}

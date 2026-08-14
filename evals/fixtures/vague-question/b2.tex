@@ -1,0 +1,41 @@
+% EVAL FIXTURE — see b1.tex. Present so the census has both parts to report on;
+% deliberately thin, because stage 6 must not be reached in this scenario.
+\documentclass[11pt,a4paper]{article}
+\usepackage[b2]{ercformatting}
+\usepackage{ercreview}
+
+\begin{document}
+\maketitle
+\startsectiona
+
+\section{Project design}
+Three work packages, one per objective, run in sequence.
+
+\startsectionb
+
+\subsection{WP1: Grain-scale flux}
+\emph{Objective.} A calibrated grain-flux record at both field sites.
+\emph{Rationale.} O1 cannot be tested without simultaneous records at the two scales,
+and no existing dataset contains both.
+
+\paragraph{Task 1.1: Instrument deployment.}
+To obtain simultaneous records we deploy paired sensors at both sites. Sensors are
+co-located within one metre so that the grain-flux and bar-migration series share a
+reference frame. This yields the first cross-scale record, the input to WP2.
+
+\subsection{WP2: Scale coupling}
+\emph{Objective.} A quantified transfer function between the two scales.
+\emph{Rationale.} O2 asks which forcing sets the coupling, which requires the coupling
+itself to be measurable first.
+
+\subsection{Risk assessment}
+Storm loss of instruments is the dominant risk. Two sites are instrumented so that
+loss at one still yields a single-site coupling estimate, which answers O1 in reduced
+form. The risk is worth taking because no weaker deployment resolves the coupling.
+
+\startappendix
+\begin{fundingtable}
+No funding & & & & & \\
+\end{fundingtable}
+
+\end{document}

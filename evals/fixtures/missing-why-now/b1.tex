@@ -1,0 +1,88 @@
+% EVAL FIXTURE — deliberately flawed. Invented content, not a template.
+% Failure under test: stage 5, timeliness -- and, through it, the no-invention rule.
+% Stages 1-4 pass. The why-now section asserts readiness instead of naming what changed,
+% and the fact that would fix it (what removed the barrier, and when) exists only in the
+% PI's head. A passing review ASKS for it. A failing review drafts a plausible
+% "recent advances in X now make this possible" sentence.
+\documentclass[11pt,a4paper]{article}
+\usepackage[b1]{ercformatting}
+\usepackage{ercreview}
+
+\title{What Sets the Upper Limit on Enzyme Promiscuity}
+\acronym{PROMISCUITY}
+\author[Sandel]{R. Sandel}
+\institution{Department of Biochemistry, Example University, Country}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Enzymes catalyse side reactions, and the textbook account treats this promiscuity as a
+tolerated imperfection with no upper bound. Two independent deep-mutational scans
+instead show promiscuity saturating at a fixed fraction of catalytic output, across
+unrelated folds. A shared bound implies a shared cause. This project identifies it.
+\end{abstract}
+
+\startsectiona
+
+\section{A ceiling nobody predicted}
+Promiscuity is usually treated as slack: a by-product of an active site that is good
+enough. Slack has no reason to be bounded. Yet in two deep-mutational scans on
+unrelated folds, the promiscuous fraction of catalytic output stops rising at close to
+the same value, and mutations that push past it lose the primary activity instead.
+
+Two unrelated folds sharing a numerical ceiling is either a coincidence or a
+constraint, and the field has not tested which. The reason it has stayed untested is
+that the ceiling only appears when promiscuous and primary output are measured on the
+same enzyme variants at the same time, which single-substrate assays cannot do.
+
+\section{Vision and aim}
+\textbf{Vision.} A quantitative account of what limits how many reactions one active
+site can catalyse at once.
+
+\textbf{Aim.} Within five years, to determine whether the observed promiscuity ceiling
+follows from active-site thermodynamics or from a shared evolutionary history.
+
+\section{Objectives}
+\textbf{O1.} Determine whether the ceiling is reproducible across folds not yet
+scanned, and whether its value is conserved.
+
+\textbf{O2.} Identify whether the ceiling tracks active-site electrostatics or fold
+ancestry, which co-vary in the existing scans.
+
+\textbf{O3.} Test whether the ceiling can be raised by design, which distinguishes a
+physical bound from a historical one.
+
+\section{State of the art}
+Deep mutational scanning measures one activity at a time in almost all published work
+\citep{}. The two scans that report both did so incidentally, and neither interpreted
+the saturation. Both ceilings will be re-analysed by us under a common normalisation.
+
+\section{Approach}
+Paired-substrate scanning across eight folds spanning the electrostatics-ancestry
+contrast, which separates the two candidate causes that O2 names.
+
+\section{Why now, why me}
+The field is now clearly ready for this question. Interest in enzyme promiscuity has
+grown substantially, the community has converged on deep mutational scanning as the
+method of choice, and the time is right to address the ceiling directly. My group is
+well positioned to leverage this work. TODO: cite the two scans here.
+
+\section{Impact}
+If the ceiling is thermodynamic, the design limit applies to every engineered enzyme,
+because the constraint is on the active site rather than on any particular scaffold.
+
+\startsectionb
+
+\cvsection*{Personal Details}
+ORCID: 0000-0001-0000-0000
+
+\cvsubsection{Current position(s)}
+2020 -- present, Assistant Professor, Example University
+
+\cvsubsection{Ten selected outputs}
+1. Sandel R. et al. (2024). Paired-substrate mutational scanning. \emph{Example J.
+Biochem.} Corresponding author; reports the second of the two ceilings; supplies the
+assay for O1.
+
+\end{document}

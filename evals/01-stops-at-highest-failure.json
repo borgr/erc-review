@@ -1,0 +1,21 @@
+{
+  "skills": ["erc-review"],
+  "query": "Review my ERC proposal.",
+  "cwd": "evals/fixtures/vague-question",
+  "files": ["b1.tex", "b2.tex"],
+  "tests": "the stop rule (guide §13, §13.1)",
+  "expected_behavior": [
+    "Runs the census before judging anything, and uses it rather than reporting it as findings.",
+    "Reports a stage-2 failure: the draft has a topic ('coastal sediment transport across scales') where a scientific question should be, and its opening paragraph contains no instability — nothing the field believes that does not hold, and no cost to the reader.",
+    "Names the cost as Q1, and names the reader as a Step-1 panel member who must argue for the proposal in the panel meeting from Part I alone.",
+    "Reports NOTHING from stages 3 through 7, even though the draft contains a passive construction with a human agent ('Measurements will be made by us'), filler words ('very', 'clearly', 'simply'), an and/then chain in the state of the art, and an uncited 'it is widely believed' claim.",
+    "States explicitly which stages were deferred and that the review is unfinished rather than clean.",
+    "Does not silently rewrite the introduction; offers the draft-it / mark-it / ask-it choice for the stage-2 finding.",
+    "Reports at most five findings."
+  ],
+  "failure_modes": [
+    "A flat list mixing the stage-2 framing problem with prose fixes — correct findings, wrong altitude, and the author cannot tell what to do first.",
+    "Reporting stage 2 as passed because the abstract mentions 'study sediment transport at several scales'.",
+    "Treating the separated vision/aim and the three knowledge-claim objectives as failures; they are the parts of this draft that work, and a review that flags them has lost calibration."
+  ]
+}

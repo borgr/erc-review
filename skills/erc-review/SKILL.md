@@ -7,17 +7,36 @@ description: Review an ERC Starting/Consolidator Grant draft (Part B1/B2) agains
 
 You are reviewing a proposal that a panel will read once, under time pressure, looking for
 a reason to stop. Your job is to find the highest-level thing that is wrong and explain what
-it costs. The rules live in `ERC_writing_guide.md` in this skill's own repository; cite them
-by section number so the author can check you, and read the stage rubrics in its §13.2
-before reporting — they carry the cost and suggestion for each check.
+it costs. The rules live in `references/ERC_writing_guide.md`, beside this file; cite them
+by section number so the author can check you.
 
-**Locating the kit.** The draft is in the working directory; the guide and checker are
-wherever this skill was installed from. Resolve them once at the start of a review, in this
-order: `./ERC_writing_guide.md`, `../erc-review/`, then
-`readlink -f ~/.claude/skills/erc-review` and walk up three levels. Set `ERC` to that
-directory and use `$ERC/tools/erc_check.py` throughout.
+**Read before reporting:** guide §13.2, the stage rubrics. Every check there carries a
+*test*, the *cost* if it fails, and a *suggestion*, and the cost is what separates a finding
+from a preference. Read the rest of the guide by section as findings need it — §13.2 cites
+the underlying rule by number, and the guide's Contents table maps every number to a
+heading. Do not read the guide end to end — it is long, and a review that stops at one stage
+needs two or three of its sections.
 
-**Check the kit is current before quoting a number from it.** Guide §12 names the call it
+**Locating the guide and the checker.** Both live beside this file, in the skill's own
+directory:
+
+```
+references/ERC_writing_guide.md   the rules
+tools/erc_check.py                stages 8 and 9
+```
+
+The draft is in the working directory, which is *not* the skill directory. Set `ERC` to the
+directory holding this file before running anything; if you do not have that path, find it:
+
+```bash
+ERC=$(dirname "$(find ~/.claude -name erc_check.py -path '*erc-review*' 2>/dev/null | head -1)")/..
+```
+
+Then `$ERC/tools/erc_check.py` and `$ERC/references/ERC_writing_guide.md` work from
+anywhere. Run the checker *from the draft directory* — it resolves `b1.tex` and `b2.tex`
+from the current directory.
+
+**Check the guide is current before quoting a number from it.** Guide §12 names the call it
 was verified against and the date. The ERC reissues the *Information for Applicants* every
 July and page limits, eligibility windows and evaluation questions have all moved in recent
 work programmes. If the draft targets a later call than §12 names, say so in one line at the
@@ -41,18 +60,36 @@ author knows the review is not finished rather than clean.
 review back. If a stage has more, report the five with the largest consequence and say how
 many remain.
 
+Copy this into your first message and check stages off as you clear them, so the author can
+see where the review stopped and why:
+
+```
+Review progress:
+- [ ] 0  census        — run the checker, read it as a map, skip unanswerable stages
+- [ ] 1  fundability   — an ERC project, or an excellent next paper?
+- [ ] 2  problem       — a nameable question, with an instability and a cost?
+- [ ] 3  layers        — is each passage at its right altitude?
+- [ ] 4  step-1        — can B1 alone be scored, by a generalist?
+- [ ] 5  criteria      — does every evaluation question have an address?
+- [ ] 6  work plan     — are work units and tasks correctly typed and bounded?
+- [ ] 7  mechanics     — do the sentences carry the argument's joints?
+- [ ] 8  prose         — checker; fix in file, report a count
+- [ ] 9  compliance    — checker; fix in file, report a count
+STOP at the first stage with failures. Mark the rest "deferred", not "passed".
+```
+
 | # | Stage | Question | Rubric |
 |---|---|---|---|
 | 0 | Census | What exists at all? | `--census`, below |
-| 1 | Fundability | Is this an ERC project rather than an excellent next paper? | guide §1, §13.2 T1 |
-| 2 | Problem | Is there a nameable question, with an instability and a cost to *these* readers? | §7.1–7.3 |
-| 3 | Layers | Is each passage at its right altitude — vision, aim, objective, work unit, task? | §5, §7.4, §7.5 |
-| 4 | Step-1 sufficiency | Can all five Step-1 questions be scored from B1 alone, by a generalist? | §3, §4 |
-| 5 | Criteria coverage | Does every evaluation question have an address in the document? | §4, §7.6–7.9 |
-| 6 | Work plan | WP objective vs rationale, task shape, moonshots, risk, Gantt | §9 |
-| 7 | Argument mechanics | Topic/stress positions, old-before-new, named causality, claim support | §10 |
-| 8 | Prose | Fillers, hedges, passive where a human acts, jargon, tics | §10 |
-| 9 | Compliance | Pages, placeholders, empty citations, funding table | `erc_check.py` |
+| 1 | Fundability | Is this an ERC project rather than an excellent next paper? | §13.2 stage 1, and §1 |
+| 2 | Problem | Is there a nameable question, with an instability and a cost to *these* readers? | §13.2 stage 2, and §7.1–7.3 |
+| 3 | Layers | Is each passage at its right altitude — vision, aim, objective, work unit, task? | §13.2 stage 3, and §5, §7.4, §7.5 |
+| 4 | Step-1 sufficiency | Can all five Step-1 questions be scored from B1 alone, by a generalist? | §13.2 stage 4, and §3, §4 |
+| 5 | Criteria coverage | Does every evaluation question have an address in the document? | §13.2 stage 5, and §4, §7.6–7.9 |
+| 6 | Work plan | WP objective vs rationale, task shape, moonshots, risk, Gantt | §13.2 stage 6, and §9 |
+| 7 | Argument mechanics | Topic/stress positions, old-before-new, named causality, claim support | §13.2 stage 7, and §10 |
+| 8 | Prose | Fillers, hedges, passive where a human acts, jargon, tics | `erc_check.py`, §13.3 |
+| 9 | Compliance | Pages, placeholders, empty citations, funding table | `erc_check.py`, §13.3 |
 
 Stage 0 is not a report. Run it first and read it as a map:
 
@@ -97,7 +134,8 @@ opinionated, and it is the one usually missing.
 
 When the finding is that a *connection* is missing rather than a sentence being wrong, say
 so and stop. That is a hole in the argument, not in the prose, and papering it over with a
-transition hides the thing worth fixing. Ask about it instead (§13.2, gap diagnostic).
+transition hides the thing worth fixing. Ask about it instead — guide §13.2, stage 7,
+*old information before new*, which says when to report a hole rather than a transition.
 
 ## Deciding what to do
 
@@ -116,6 +154,13 @@ Prefer *ask* whenever the fix needs a fact, result, or intention you cannot see.
 **Stages 8–9 — just fix them,** in the file, and report a count rather than a list. Filler
 words, passive constructions with a human agent, placeholders, empty `\citep{}`: these are
 safe, reversible, and not the author's voice.
+
+Then close the loop: re-run `python3 $ERC/tools/erc_check.py` and compare the counts. Report
+the before/after numbers, and for anything still flagged, say why it stays — a `passive`
+flag on a sentence whose subject is not a person, or a `filler` flag inside a quoted title,
+is a false positive and should be named as one rather than silently left. Two items no
+script can reach, so check them by eye and report them with these: B1 must upload as one
+combined PDF, and B2 must contain no budget table or resources section (§13.3).
 
 Batch questions. At most three, numbered, each answerable in one sentence, and only the
 ones that block the next edit. Everything else goes into the draft as `\ercscore` comments,

@@ -1,0 +1,52 @@
+% EVAL FIXTURE — see b1.tex. Adequate at stage 6, so the review has no excuse to
+% drop below stage 5.
+\documentclass[11pt,a4paper]{article}
+\usepackage[b2]{ercformatting}
+\usepackage{ercreview}
+
+\begin{document}
+\maketitle
+\startsectiona
+
+\section{Project design}
+Eight folds, chosen so that active-site electrostatics and fold ancestry vary
+independently -- the contrast O2 rests on. WP1 establishes the ceiling, WP2 attributes
+it, WP3 attempts to break it.
+
+\startsectionb
+
+\subsection{WP1: Is the ceiling general?}
+\emph{Objective.} A paired-substrate scan for each of the eight folds, with the ceiling
+value and its confidence interval.
+\emph{Rationale.} O1 is a claim about reproducibility, which two incidental
+observations cannot support.
+
+\paragraph{Task 1.1: Paired-substrate scanning.}
+To measure both activities on the same variants we run the paired assay across all
+eight libraries. Running the pairs in one plate removes the between-assay drift that
+made the original saturation look incidental. This yields eight ceiling estimates, the
+input to the attribution in WP2.
+
+\subsection{WP2: What sets it?}
+\emph{Objective.} An attribution of the ceiling to electrostatics or to ancestry.
+\emph{Rationale.} The two candidates co-vary in all published data, so O2 needs the
+decorrelated fold set from WP1.
+
+\paragraph{Task 2.3: Moonshot -- raising the ceiling.}
+Whether a designed active site can exceed the ceiling is unknown, and a negative result
+is informative: it would establish the bound as physical rather than historical, which
+is O3's claim either way. WP2's objectives are met by the attribution alone, so the
+work package is complete without this task.
+
+\subsection{Risk assessment}
+Library quality is the dominant risk: a poorly covered library yields a ceiling
+estimate too wide to compare. Coverage is verified before assay, and a failed library
+is replaced by a ninth fold held in reserve, so the eight-fold contrast survives. The
+risk is worth taking because fewer folds cannot decorrelate the two candidate causes.
+
+\startappendix
+\begin{fundingtable}
+No funding & & & & & \\
+\end{fundingtable}
+
+\end{document}

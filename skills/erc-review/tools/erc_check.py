@@ -90,7 +90,9 @@ CAUSAL_SMELL = [
     (r"\band we will\b.*\band we will\b", 'two "and we will" clauses in one sentence'),
 ]
 
-PASSIVE_FUTURE = r"\bwill be (?:\w+ed|measured|shown|performed|conducted|investigated|analysed|analyzed)\b"
+# [\w-]+ed rather than \w+ed so hyphenated participles are caught too: a compound like
+# "will be re-analysed" or "will be cross-validated" is passive in exactly the same way.
+PASSIVE_FUTURE = r"\bwill be (?:[\w-]+ed|measured|shown|performed|conducted|investigated|analysed|analyzed)\b"
 
 # Objectives should be knowledge claims, not deliverables. Guide §7.5.
 DELIVERABLE_VERBS = r"^\s*(?:OBJ\s*\d|O\d)[.):]?\s*(?:We will )?(?:Build|Implement|Release|Create|Deliver|Produce|Set up)\b"

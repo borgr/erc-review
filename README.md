@@ -13,11 +13,17 @@ never nameable and no amount of sentence work reaches that.
 
 | | |
 |---|---|
-| [`ERC_writing_guide.md`](ERC_writing_guide.md) | The rules. §1–12 are what the call and the panel want; §13 is the review protocol. |
-| [`.claude/skills/erc-review/SKILL.md`](.claude/skills/erc-review/SKILL.md) | A [Claude Code](https://claude.com/claude-code) skill that runs the judgment stages of §13 against a draft. |
-| [`tools/erc_check.py`](tools/erc_check.py) | Settles everything a regex can settle, so neither you nor an agent spends attention there. No dependencies. |
+| [`ERC_writing_guide.md`](skills/erc-review/references/ERC_writing_guide.md) | The rules. §1–12 are what the call and the panel want; §13 is the review protocol. |
+| [`skills/erc-review/SKILL.md`](skills/erc-review/SKILL.md) | A [Claude Code](https://claude.com/claude-code) skill that runs the judgment stages of §13 against a draft. |
+| [`tools/erc_check.py`](skills/erc-review/tools/erc_check.py) | Settles everything a regex can settle, so neither you nor an agent spends attention there. No dependencies. |
 | [`ercreview.sty`](ercreview.sty) | Margin-note macros for leaving findings in the draft, keyed to guide sections. |
 | [`example/`](example/) | A deliberately flawed skeleton, so the checker has something to find. |
+| [`evals/`](evals/) | Three scenarios that test whether the skill still stops at the highest failing stage. Run before accepting a change to `SKILL.md`. |
+
+The guide and the checker live inside the skill directory so that the skill is
+self-contained wherever it is installed — one copy, no drift. `ERC_writing_guide.md` and
+`tools/` at the repository root are symlinks to them, so the paths in this README and in
+anything you have already scripted keep working.
 
 ## The protocol
 
@@ -73,14 +79,24 @@ python3 tools/erc_check.py example/
 
 ## Using the skill
 
-Install it where Claude Code looks for skills, then ask for a review from your draft
-directory:
+The repository is a Claude Code plugin. Add it as a marketplace once, install it, and it is
+available in every project:
 
-```
-ln -s "$ERC/.claude/skills/erc-review" ~/.claude/skills/erc-review
+```sh
+claude plugin marketplace add borgr/erc-review
+claude plugin install erc-review@erc-review
 ```
 
-The skill reports at most five findings at a time, each as *where* → *what* → *why it
+Or, without the plugin machinery, clone it into the directory Claude Code scans for skills —
+the inner `skills/erc-review`, not the repository root:
+
+```sh
+git clone https://github.com/borgr/erc-review.git /tmp/erc-review
+ln -s /tmp/erc-review/skills/erc-review ~/.claude/skills/erc-review
+```
+
+Then `cd` to the directory holding your `b1.tex` and ask for a review. The skill reports at
+most five findings at a time, each as *where* → *what* → *why it
 costs* → *what to do*, and offers three routes per finding: draft the replacement, mark it
 in the file with `\ercscore{§}{...}`, or ask you the question — the last whenever the fix
 needs a fact that is not in the draft. It edits stages 8–9 directly and reports a count;

@@ -1,0 +1,15 @@
+{
+  "name": "erc-review",
+  "owner": { "name": "Leshem Choshen", "url": "https://github.com/borgr" },
+  "metadata": {
+    "description": "The ERC proposal reviewing kit: guide, staged review protocol, checker, and comment macros."
+  },
+  "plugins": [
+    {
+      "name": "erc-review",
+      "source": "./",
+      "description": "Reviews ERC Starting/Consolidator Grant drafts top-down against what the panel actually scores, and stops at the highest level that is failing.",
+      "version": "1.0.0"
+    }
+  ]
+}

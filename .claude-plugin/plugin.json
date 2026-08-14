@@ -1,0 +1,10 @@
+{
+  "name": "erc-review",
+  "description": "Reviews ERC Starting/Consolidator Grant drafts top-down against what the panel actually scores, and stops at the highest level that is failing.",
+  "version": "1.0.0",
+  "author": { "name": "Leshem Choshen", "url": "https://github.com/borgr" },
+  "homepage": "https://github.com/borgr/erc-review",
+  "repository": "https://github.com/borgr/erc-review",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["erc", "grant", "proposal", "academic-writing", "review", "latex"]
+}
