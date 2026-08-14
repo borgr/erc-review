@@ -23,16 +23,16 @@ Sections are cited by number throughout the review protocol, the checker's outpu
 |---|---|---|
 | | [Provenance and permissions](#provenance-and-permissions) | sources, what is excluded and why |
 | 1 | [What an ERC project is — and is not](#1-what-an-erc-project-is--and-is-not) | the six ingredients, the six shapes that get rejected |
-| 2 | [Call mechanics](#2-call-mechanics) | eligibility windows, amounts, dates, what you submit and its page limits |
+| 2 | [Call mechanics](#2-call-mechanics) | eligibility windows, amounts, dates, and every component with its page or character limit |
 | 3 | [Who reads what, and when](#3-who-reads-what-and-when) | Step 1 vs Step 2 readers; why B1 must stand alone |
 | 4 | [The evaluation questions](#4-the-evaluation-questions) | the scored questions verbatim, what each is asking, the PI criteria |
 | 5 | [The four layers](#5-the-four-layers) | challenge/vision/aim · objectives · work units · tasks |
 | 6 | [Part B1 — cover page and abstract](#6-part-b1--cover-page-and-abstract) | acronym, the 2,000-character abstract and its administrative job |
 | 7 | [Part I of the Scientific Proposal](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) | 7.1 rationale · 7.2 limitations vs barriers · 7.3 falsifiable challenge · 7.4 vision vs aim · 7.5 objectives · 7.6 state of the art · 7.7 strategy · 7.8 why now, why me · 7.9 impact |
-| 8 | [Part B1 — CV and track record](#8-part-b1--cv-and-track-record-4-pages) | the four-page template, the ten outputs, what each entry must carry |
-| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | 9.1 project design · 9.2 WP objective vs rationale · 9.3 tasks · 9.4 moonshots · 9.5 risk |
+| 8 | [Part B1 — CV and track record](#8-part-b1--cv-and-track-record-4-pages) | the four-page template and how to divide it, the ten outputs, what each entry must carry |
+| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | how the seven pages divide · 9.1 project design · 9.2 WP objective vs rationale · 9.3 tasks · 9.4 moonshots · 9.5 risk |
 | 10 | [Sentence-level rules](#10-sentence-level-rules-for-the-implementation-sections) | named causality, active voice where a human acts |
-| 11 | [Budget, resources and panel choice](#11-budget-resources-and-panel-choice) | where budget text may and may not live; picking the panel |
+| 11 | [Budget, resources and panel choice](#11-budget-resources-and-panel-choice) | 11.1 the budget table's five cost categories · 11.2 the 8,000-character Resources box · 11.3 additional funding · 11.4 panel, keywords, excluded reviewers |
 | 12 | [What this was checked against](#12-what-this-was-checked-against) | versions, dates, and the four things older advice gets wrong |
 | 13 | [Review protocol](#13-review-protocol) | 13.1 the stage ladder · 13.2 stage rubrics · 13.3 what the checker settles · 13.4 scoping a review · 13.5 leaving a finding in the draft |
 
@@ -119,10 +119,18 @@ the evaluation is split along these lines and not along the file boundaries:
 
 | Component | Lives in | Limit |
 |---|---|---|
+| Cover page (title, acronym, PI, host, duration, abstract) | Part B1, before Part I | ½ page abstract; the cover page itself is outside the 5-page limit |
 | **Part I of the Scientific Proposal** | Part B1, after the cover page | 5 pages |
 | **Curriculum Vitae and Track Record** | Part B1, one single template | 4 pages |
 | **Part II of the Scientific Proposal** | Part B2 | 7 pages |
-| **Resources and Time Commitment** | Part A online: budget table, 8,000-character resources text box, time commitment | — |
+| Funding ID (current grants and pending applications) | Part B2, after Part II | outside the page limit |
+| Abstract | Part A, *General Information* — the cover page copies it verbatim | 2,000 characters incl. spaces |
+| **Budget table** | Part A, *Budget* — five cost categories (§11.1) | whole euros; capped at the grant maximum plus any additional funding |
+| **Resources** description | Part A, *Budget*, text box under the table (§11.2) | 8,000 characters incl. spaces ≈ 1–2 pages, silently truncated |
+| **Time commitment** | Part A, *Other questions* | a percentage, ≥ the minimum below |
+
+Only Part I, the CV and Part II are page-limited; everything else in the table is capped in
+characters, which is the harder constraint to plan for because no editor shows it to you.
 
 B1 (cover page + Part I + CV/Track Record, so up to 10 pages) uploads as **one single
 PDF**, never split. B2 carries Part II plus the Funding ID table of current and submitted
@@ -246,8 +254,9 @@ wrong document; if a B2 work package never connects to an objective, the mapping
 
 ## 6. Part B1 — cover page and abstract
 
-The cover page carries the acronym, PI, host institution and duration. Two things
-deserve real effort:
+The cover page carries the title, acronym, PI, host institution and duration, and — if you
+are asking for more than one review panel — the additional panel and the reason it is needed
+(§11.4). It sits outside Part I's five pages. Two things deserve real effort:
 
 **The acronym.** It is the handle the panel uses for your project through two steps of
 evaluation. Pick something pronounceable that encodes the idea.
@@ -272,14 +281,20 @@ the project will *change, open or challenge* in the field.
 choose the structure, and a reader who cannot find the answer to an evaluation question
 concludes it is absent. Use the criteria as your headings, or as visible threads.
 
-Recommended sections and page budget:
+Recommended sections and page budget. The five pages are not divided by the call — this
+allocation is editorial, and the subsection numbers below are where each band's rules live:
 
-| Section | Pages |
-|---|---|
-| Introduction / project rationale + Vision | 1 – 1.5 |
-| Objectives + State of the art | 1.5 – 2 |
-| Research approach / strategy | 1.5 – 2 |
-| Why now, why me + Impact | 0.5 – 1 |
+| Band | Pages | Covered in |
+|---|---|---|
+| Introduction / project rationale + vision | 1 – 1.5 | §7.1, §7.2, §7.3, §7.4 |
+| Objectives + state of the art | 1.5 – 2 | §7.5, §7.6 |
+| Research approach / strategy | 1.5 – 2 | §7.7 |
+| Why now, why me + impact | 0.5 – 1 | §7.8, §7.9 |
+
+The bracket on each subsection heading below is that subsection's share, so the nine of them
+sum to the five pages. Treat them as an opening bid, not a rule: what matters is that a
+section running to twice its bracket has taken the pages from somewhere, and you should be
+able to say from where.
 
 References do not count against the limit; the cover page does not either. Formatting is
 mandatory and checked: A4, Times New Roman / Arial or similar, **font size ≥ 11**, single
@@ -289,7 +304,7 @@ cosmetic: reviewers are instructed to read only what fits inside the limits *pro
 font instructions are respected*, so shrinking the type to fit is a way of having the
 squeezed-in material discarded rather than read.
 
-### 7.1 Introduction / project rationale
+### 7.1 Introduction / project rationale (½–¾ page)
 
 Four moves: set the stage, state the core inquiry (the major research question, key
 challenge, or knowledge gap), give the current limitations of the field, and establish
@@ -298,7 +313,7 @@ significance.
 The failure mode is turning this into a literature review. The introduction exists to
 make the reader feel the gap, not to demonstrate that you have read everything.
 
-### 7.2 Limitations versus barriers
+### 7.2 Limitations versus barriers (a rule for §7.1, not a section of its own)
 
 A distinction worth internalising, because proposals routinely supply one and omit the
 other.
@@ -312,7 +327,7 @@ Limitations alone read as "nobody got around to it", which invites the reviewer 
 wonder why your project is needed now. Barriers are what make the gap *hard*, and
 therefore what make solving it ground-breaking rather than overdue.
 
-### 7.3 State the challenge in falsifiable terms
+### 7.3 State the challenge in falsifiable terms (2–4 sentences, inside §7.1)
 
 The single highest-yield sentence-level fix in the deck. Vague challenge statements are
 unscoreable; specific ones carry their own significance.
@@ -328,7 +343,7 @@ plus **the reason it is not known**. "Poorly understood", "not fully understood"
 "remains unclear" and "has received limited attention" are all signals that the sentence
 has not been written yet.
 
-### 7.4 Vision versus overarching aim
+### 7.4 Vision versus overarching aim (¼ page)
 
 Also routinely collapsed into one thing, and the collapse costs you either ambition or
 credibility.
@@ -350,7 +365,7 @@ The vision section should also carry: your idea for addressing the challenge, th
 novelty and targeted breakthrough, the overarching aim and the innovative approach, and
 how the work paves the way for future inquiry.
 
-### 7.5 Objectives
+### 7.5 Objectives (½–¾ page)
 
 - **3–5 interlinked objectives.** Fewer reads as thin; more reads as a work programme
   rather than a project.
@@ -367,7 +382,7 @@ Use knowledge verbs: *develop the theory required to describe…*, *explore the 
 of…*, *determine whether…*, *demonstrate the ability of…*, *characterise…*. Avoid
 *implement*, *build*, *release*, *apply*.
 
-### 7.6 State of the art
+### 7.6 State of the art (¾–1 page)
 
 - **Expose the field's current limitations** — this is an argument, not a survey.
 - **Tie each part to an objective.** The reader should be able to map SoA sub-area → objective.
@@ -377,7 +392,7 @@ of…*, *determine whether…*, *demonstrate the ability of…*, *characterise�
 - **State your plan to surpass it.** The section ends with what you will do that the
   state of the art cannot.
 
-### 7.7 Research strategy
+### 7.7 Research strategy (1½–2 pages)
 
 The scientific approach for testing your core hypotheses and addressing the main
 research questions. Three things to make explicit: the **logic of the conceptual steps**
@@ -387,7 +402,7 @@ innovation** in the approach.
 This is layer 2½ — enough about how to make the approach believable, not so much that
 you have written B2 twice.
 
-### 7.8 Why now, why me
+### 7.8 Why now, why me (¼–½ page)
 
 - **Timeliness** — why this question is answerable now and was not five years ago (a new
   method, a new dataset, a new theoretical result, your own preliminary finding).
@@ -406,7 +421,7 @@ scientific approach feasible?" was **removed from the Step-1 question list** as 
 answering a question nobody at Step 1 is asking, at the cost of the ambition they *are*
 scoring.
 
-### 7.9 Impact
+### 7.9 Impact (¼–½ page)
 
 - **A positive conclusion** — the section is also the document's ending, so it carries
   stress position for the whole of B1.
@@ -421,12 +436,24 @@ thinking.
 
 ## 8. Part B1 — CV and track record (4 pages)
 
-Same single PDF as the synopsis. The template can be modified if needed.
+Same single PDF as the synopsis. The template can be modified if needed. Four pages, and
+the outputs and peer-recognition blocks are worth more than half of them:
+
+| Block | Pages |
+|---|---|
+| Personal details, education, positions | ¾ |
+| Research achievements — opening paragraph | ¼ – ½ |
+| Ten major research outputs | 1½ |
+| Peer recognition | ¾ |
+| Career breaks and life events | a few lines, or nothing |
+| Other contributions to the research community | ¼ – ½ |
 
 **Personal details.** Personalise: photo, up-to-date web page, ORCID.
 
 **Education and key qualifications.** Add honours — *cum laude*, top-percentile rankings,
-prizes attached to degrees.
+prizes attached to degrees. The call asks specifically for the **names of your PhD
+supervisor(s) and postdoctoral mentor(s)**; a CV that omits them is missing required
+content, and the panel reads the lineage as context for your career stage.
 
 **Current and previous positions.** Stress leadership and tenure status; list dual
 affiliations.
@@ -444,6 +471,11 @@ member forms their model of you.
   evidence of field-level influence.
 - For each one, explain **its significance, your role in it, and its relevance to your
   capacity to run this project**. A bare citation does none of that work.
+- **Report them exactly as published:** every author, in the published order, with joint
+  authorship marked where it applies — co-first author, co-corresponding. This is an
+  explicit instruction in the call, not a courtesy. Trimming an author list to fit the page,
+  or promoting yourself to first author of an alphabetical list, is the kind of discrepancy a
+  panel member checks and cannot unsee.
 
 **Peer recognition.** Grants, awards, prizes, honours; invited talks, presentations,
 keynotes; scientific evaluation and editorial reviewing; leadership roles.
@@ -476,21 +508,29 @@ Order of sections:
 4. **Gantt chart.**
 5. **Risk analysis** and concluding remarks.
 
-On page budget: most of B2 goes to project design and the work plan, with roughly one
-page — a little more — for risk analysis and concluding remarks. The deck's structure
-slide gives 2–3 pages for the recap, 2–4 for state of the art, 6 for design plus work
-plan, and 1 for Gantt plus risk; that sums to a 14-page Part II, which is the pre-2026
-limit (see [§12](#12-what-this-was-checked-against)). Rescaled to **7 pages**, the
-proportions imply roughly: ½–1 page recap, 5 pages design and work plan, 1 page Gantt plus
-risk.
+Page budget for the seven pages. Editorial, like §7's, and the numbers on the subsection
+headings below are the same ones:
+
+| Section | Pages | Covered in |
+|---|---|---|
+| Compressed recap: intro, vision, objectives, state of the art | ½ – 1 | this section |
+| Project design, with the objectives-to-work-units figure | ¾ | §9.1 |
+| Work plan — every work package, task and moonshot | 4½ | §9.2, §9.3, §9.4 |
+| Gantt chart | ¼ | §9.1 |
+| Risk analysis and concluding remarks | ½ | §9.5 |
+
+The work plan is four fifths of what is left after the recap, which is the allocation to
+defend if something has to give. Advice written for the old 14-page Part II implies a much
+larger recap and state of the art; if that is what you are working from, see
+[§12](#12-what-this-was-checked-against) before dividing anything.
 
 **Do not** reproduce the budget table in Part II. The table and its detailed justification
 live in Part A; Part II may explain resources where the work plan makes it natural, but it
-cannot deviate from Part A, and no budget information may be annexed (§11). References and
+cannot deviate from Part A, and no budget information may be annexed (§11.1). References and
 the Funding ID appendix do not count towards the page limit, and must not be uploaded
 separately.
 
-### 9.1 Project design
+### 9.1 Project design (¾ page, figure included)
 
 An overview before the detail:
 
@@ -502,7 +542,7 @@ A figure earns its space here: a diagram mapping objectives to work units, with 
 dependencies between units drawn. It answers "is this a project or a list of projects?"
 in one glance, which is exactly the question a generalist panel member is asking.
 
-### 9.2 Work packages: objective versus rationale
+### 9.2 Work packages: objective versus rationale (4½ pages for the whole work plan)
 
 The distinction the seminar spends real time on, and the most common muddle in draft
 work packages.
@@ -535,7 +575,7 @@ Plus, across the work plan: choice of methodology **and evidence of flexibility*
 key intermediate goals and decision points), development of novel methodology,
 interdisciplinary aspects, and explicit arguments in favour of feasibility.
 
-### 9.3 Tasks
+### 9.3 Tasks (½ page each, inside the work-plan budget)
 
 A task should read as a compact scientific story, not a to-do item. Four moves — as
 prose, **not** as four sub-headings:
@@ -552,7 +592,7 @@ outcomes block produces a nested structure that repeats itself and burns pages. 
 package's objective and rationale apply to all its tasks; each task then just needs
 *question → approach → contribution*.
 
-### 9.4 Moonshot tasks
+### 9.4 Moonshot tasks (¼ page, 150–200 words)
 
 For the one task in a work package that is deliberately far more ambitious and far less
 likely than the rest. Treat it differently in *emphasis and rhetoric*, not as a different
@@ -598,7 +638,7 @@ programme and deserving normal length. A moonshot follows from the work package 
 substantially beyond its central objective, and would, if it worked, produce a broader
 theory than the work package promised.
 
-### 9.5 Risk assessment
+### 9.5 Risk assessment (½ page, with the Gantt chart alongside)
 
 - A **risk strategy**, not a table of platitudes.
 - **Describe and classify** the relevant risks.
@@ -631,38 +671,117 @@ no indication of …".
 
 ## 11. Budget, resources and panel choice
 
-**Budget justification** goes in Part A — the budget table plus a Resources text box of
-8,000 characters including spaces, which is silently truncated if you exceed it. Part II
-may add justification where it arises naturally in describing methodology or the work
-plan, and the call explicitly permits this, but the *detailed and exhaustive* breakdown
-must be in Part A, Part II **cannot deviate** from it, and no information about the budget
-may live anywhere else — an annex will not be accepted. Where the two disagree, the table
-prevails. Expect interview questions on the table itself. Talk to your institution's grant
-support staff — this is the one section where local expertise beats general advice.
+**All of it lives in Part A**, in the online form's *Budget* section: the table, and a
+Resources text box under it. Part II may explain resources where the methodology or work
+plan makes it natural, and the call explicitly permits that, but the *detailed and
+exhaustive* breakdown must be in Part A, Part II **cannot deviate** from it, and no budget
+information may live anywhere else — an annex will not be accepted. Where the table and the
+prose disagree, **the table prevails**.
 
-Additional funding (up to €1 M, or €2 M if you are based outside the EU or an Associated
-Country at the deadline) is requested in the same table and must be justified in the
-proposal; it is assessed with everything else, and it is not reduced pro rata for shorter
-projects.
+Both the table and the Resources text reach the Step-2 panel and the Remote Reviewers, as a
+generated *Proposal Budget Report* that also prints your declared time commitment beside the
+figures (§3). Nobody at Step 1 sees any of it. Expect interview questions on the table
+itself. Talk to your institution's grant support staff — this is the one section where local
+expertise beats general advice.
 
-Cover: **personnel** (each member's profile and responsibility), **equipment** (solid
-justification, especially where other funding exists), **open access, dissemination and
-workshops**, and any critical additional resources the host makes available.
+### 11.1 The budget table
 
-**Panel and keywords.** You choose the primary panel and, if applicable, a secondary
-one; at least 1 and up to 4 descriptors/keywords, each representing a research area.
-This choice determines who reads you in Step 1 — which, given that Step 1 is decided by
-generalists reading only B1, is a strategic decision rather than an administrative one.
-The ERC publishes past panel membership at
-`erc.europa.eu/apply-grant/panel-members`; work backwards from the composition of a
-panel to whether your B1 will land with it.
+The ERC funds up to **100 % of total eligible costs** for the full project duration: direct
+costs, plus a flat-rate 25 % for indirect costs. Whole euros only, no thousands, no
+percentages. Five cost categories, and the substructure inside C is what the form actually
+asks for:
+
+| | Category | Contains | Indirect costs |
+|---|---|---|---|
+| **A** | Direct personnel | PI · senior staff · postdocs · students · other personnel | yes |
+| **B** | Subcontracting | — | **no** |
+| **C1** | Purchase — travel | travel and subsistence | yes |
+| **C2** | Purchase — equipment | equipment, including major equipment | yes |
+| **C3** | Purchase — other goods, works and services | consumables (incl. fieldwork and animal costs) · publications, including Open Access fees, and dissemination · other additional direct costs | yes |
+| **D** | Internally invoiced goods and services | host-institution internal charges | **no** |
+| **E** | Indirect costs | computed, not entered: **E = 25 % × (A + C1 + C2 + C3)** | — |
+
+Total eligible costs are A + B + C + D + E. B and D carry no overhead because those charges
+already include it.
+
+Four things about the table that cost people grants rather than points:
+
+- **`Total eligible costs` is calculated for you; `Requested EU contribution` is not.** You
+  type it, and it does not update when you change a category. Re-check it last, after every
+  other edit. If the two differ on purpose, say in the Resources text what the difference is
+  funded from.
+- **The PI's personnel cost cannot exceed the time commitment** you declare in *Other
+  questions* (≥ 50 % StG, ≥ 40 % CoG). These are two separate sections of the form and the
+  form does not reconcile them for you.
+- **Equipment is a depreciation cost by default.** Full capitalised cost is possible by
+  exception, and only for items **listed and justified in the proposal** — so the decision
+  has to be made while you are still writing, not at grant preparation.
+- **Unjustified budgets are cut, not queried.** The panel assesses the estimate; the
+  reduction happens without a conversation.
+
+Two eligible categories that applicants routinely leave out: **care costs** directly caused
+by the project — childcare during fieldwork, conferences, visits to large facilities — where
+the host's rules allow them, and, for a PI relocating to the EU or an Associated Country, the
+PI's **one-way ticket** (family tickets and relocation costs are not eligible).
+
+### 11.2 The Resources text box
+
+8,000 characters including spaces — one to two pages of text — under the table, and
+**silently truncated** at the limit, so check the length in the form and not in your editor.
+Six things it has to do, in the call's own order:
+
+1. **Every cost category, described and justified**, as accurately as you can estimate.
+2. **The size and nature of the team**, with key members and their roles. A member hosted by
+   another institution needs the scientific added value spelled out against the extra cost.
+3. **Any additional funding**, item by item (§11.3).
+4. **A short technical description of each piece of requested equipment** — what it is, why
+   you need it, and how much of the project you will use it for.
+5. **A realistic Open Access estimate.** Eligible only for fully open-access venues and only
+   if incurred during the project: article and book processing charges, page and colour
+   charges.
+6. **Existing resources that need no EU funding** — infrastructure and equipment the host
+   provides, and any third-party in-kind contributions.
+
+Personnel, equipment and dissemination are where the panel's attention goes, and each needs a
+profile and a responsibility rather than a headcount. Equipment justification is read hardest
+where you already hold other funding.
+
+### 11.3 Additional funding
+
+Above the €1.5 M (StG) or €2.0 M (CoG) ceiling you may request up to **€1 M**, or **€2 M**
+if you are relocating to the EU or an Associated Country to take up the grant. It goes in
+the same table, in whichever cost categories the money is actually needed for, and must be
+fully justified in the Resources text. It is a separate cost category in the Model Grant
+Agreement, it may itself attract the 25 % overhead depending on the category, and it is **not
+reduced pro rata** for a shorter project. After award, the breakdown can be changed only
+within the objectives the additional funding was granted for — which makes those objectives
+worth writing precisely.
+
+### 11.4 Panel, keywords, and who will not review you
+
+You choose the primary panel and, if the proposal is genuinely cross-disciplinary, a
+secondary one; up to four ERC keywords from the call's own list, each covering a research
+area. This choice determines who reads you in Step 1 — which, given that Step 1 is decided by
+generalists reading only B1, is a strategic decision rather than an administrative one. The
+ERC publishes past panel membership at `erc.europa.eu/apply-grant/panel-members`; work
+backwards from the composition of a panel to whether your B1 will land with it. A
+cross-panel proposal must also *explain on the cover page why* it needs more than one panel.
+
+You may also name **up to three reviewers to be excluded** from your evaluation, in Part A's
+*Other questions*. The request is only considered if the details are complete and correct —
+first and last name, institution, town, country, web page — so an approximate entry is the
+same as no entry.
 
 ---
 
 ## 12. What this was checked against
 
 Every number and quotation above was verified on **11 August 2026** against two primary
-sources, both of which govern the ERC-2027-StG and ERC-2027-CoG calls:
+sources, both of which govern the ERC-2027-StG and ERC-2027-CoG calls. The budget, resources
+and CV material — §2's component table, §8, and §11.1–11.4 — was checked again on
+**14 August 2026** against the same *Information for Applicants*, §2.3 and Annexes 4.6
+and 4.7 (the Proposal Budget Report), which is where the cost categories, the 25 % indirect
+formula and the character limits are stated:
 
 | Source | Version | Settles |
 |---|---|---|
@@ -922,7 +1041,7 @@ Each finding prints `file:line [code] message (guide §)`.
 | `notes-visible` | `\wzm` set to reveal private notes | — |
 | `placeholder` | `HERE GOES`, `XXXX`, `DD/MM/YYYY`, `Name Surname`, `EDIT:`, `\temp{}`, `TODO` | — |
 | `empty-cite` / `empty-ref` | `\citep{}`, `\ref{}` — a claim with no support | §7.3 |
-| `funding-blank` | funding table with no entries and no "No funding" | §11 |
+| `funding-blank` | Funding ID table with no entries and no "No funding" | §2 |
 | `abstract-long` / `abstract-thin` | abstract outside the 2,000-character budget | §6 |
 | `vague-challenge` | "poorly understood", "remains unclear", "little is known", … | §7.3 |
 | `objective-deliverable` | objective opening with build/implement/release | §7.5 |
@@ -937,7 +1056,7 @@ moonshots over ~200 words (§9.3, §9.4) — and, with `--pages`, page counts ag
 
 The two compliance items no script can check: B1 must be one combined PDF with sections,
 references and appendix never uploaded separately (§2), and B2 must contain no budget table
-or resources section anywhere (§11).
+or resources section anywhere (§11.1).
 
 ### 13.4 Scoping a review
 
