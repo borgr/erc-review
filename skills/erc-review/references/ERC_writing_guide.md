@@ -5,7 +5,7 @@ Weizmann ERC preparatory seminar, the *Information for Applicants* (v11.0) and t
 Programme 2027*. Organised so you can read it once for the argument and then work
 [§13](#13-review-protocol) against a live draft.
 
-§13 is a rubric, not a checklist: it runs top-down, from *is this an ERC project* to
+[§13](#13-review-protocol) is a rubric, not a checklist: it runs top-down, from *is this an ERC project* to
 *is this word doing work*, and stops at the highest level that is failing. Two tools in
 this repository execute it — [`SKILL.md`](../SKILL.md), a Claude Code skill that drives the
 judgment stages, and
@@ -25,18 +25,18 @@ Sections are cited by number throughout the review protocol, the checker's outpu
 | 1 | [What an ERC project is — and is not](#1-what-an-erc-project-is--and-is-not) | the six ingredients, the six shapes that get rejected |
 | 2 | [Call mechanics](#2-call-mechanics) | eligibility windows, amounts, dates, and every component with its page or character limit |
 | 3 | [Who reads what, and when](#3-who-reads-what-and-when) | Step 1 vs Step 2 readers; why B1 must stand alone |
-| 4 | [The evaluation questions](#4-the-evaluation-questions) | the scored questions verbatim, what each is asking, the PI criteria |
+| 4 | [The evaluation questions](#4-the-evaluation-questions) | the scored questions verbatim · [what each is asking](#what-each-question-is-actually-asking) · [the PI criteria](#the-pi-criteria-and-where-stg-and-cog-diverge) |
 | 5 | [The four layers](#5-the-four-layers) | challenge/vision/aim · objectives · work units · tasks |
 | 6 | [Part B1 — cover page and abstract](#6-part-b1--cover-page-and-abstract) | acronym, the 2,000-character abstract and its administrative job |
-| 7 | [Part I of the Scientific Proposal](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) | 7.1 rationale · 7.2 limitations vs barriers · 7.3 falsifiable challenge · 7.4 vision vs aim · 7.5 objectives · 7.6 state of the art · 7.7 strategy · 7.8 why now, why me · 7.9 impact |
+| 7 | [Part I of the Scientific Proposal](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) | [7.1 rationale](#71-introduction--project-rationale-½¾-page) · [7.2 limitations vs barriers](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own) · [7.3 falsifiable challenge](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) · [7.4 vision vs aim](#74-vision-versus-overarching-aim-¼-page) · [7.5 objectives](#75-objectives-½¾-page) · [7.6 state of the art](#76-state-of-the-art-¾1-page) · [7.7 strategy](#77-research-strategy-1½2-pages) · [7.8 why now, why me](#78-why-now-why-me-¼½-page) · [7.9 impact](#79-impact-¼½-page) |
 | 8 | [Part B1 — CV and track record](#8-part-b1--cv-and-track-record-4-pages) | the four-page template and how to divide it, the ten outputs, what each entry must carry |
-| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | how the seven pages divide · 9.1 project design · 9.2 WP objective vs rationale · 9.3 tasks · 9.4 moonshots · 9.5 risk |
+| 9 | [Part II of the Scientific Proposal](#9-part-ii-of-the-scientific-proposal-7-pages--b2) | how the seven pages divide · [9.1 project design](#91-project-design-¾-page-figure-included) · [9.2 WP objective vs rationale](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan) · [9.3 tasks](#93-tasks-½-page-each-inside-the-work-plan-budget) · [9.4 moonshots](#94-moonshot-tasks-¼-page-150200-words) · [9.5 risk](#95-risk-assessment-½-page-with-the-gantt-chart-alongside) |
 | 10 | [Sentence-level rules](#10-sentence-level-rules-for-the-implementation-sections) | named causality, active voice where a human acts |
-| 11 | [Budget, resources and panel choice](#11-budget-resources-and-panel-choice) | 11.1 the budget table's five cost categories · 11.2 the 8,000-character Resources box · 11.3 additional funding · 11.4 panel, keywords, excluded reviewers |
+| 11 | [Budget, resources and panel choice](#11-budget-resources-and-panel-choice) | [11.1 the budget table's five cost categories](#111-the-budget-table) · [11.2 the 8,000-character Resources box](#112-the-resources-text-box) · [11.3 additional funding](#113-additional-funding) · [11.4 panel, keywords, excluded reviewers](#114-panel-keywords-and-who-will-not-review-you) |
 | 12 | [What this was checked against](#12-what-this-was-checked-against) | versions, dates, and the four things older advice gets wrong |
-| 13 | [Review protocol](#13-review-protocol) | 13.1 the stage ladder · 13.2 stage rubrics · 13.3 what the checker settles · 13.4 scoping a review · 13.5 leaving a finding in the draft |
+| 13 | [Review protocol](#13-review-protocol) | [13.1 the stage ladder](#131-the-stage-ladder) · [13.2 stage rubrics](#132-stage-rubrics) · [13.3 what the checker settles](#133-what-the-checker-settles--stages-8-and-9) · [13.4 scoping a review](#134-scoping-a-review) · [13.5 leaving a finding in the draft](#135-leaving-a-finding-in-the-draft) |
 
-Reading §13 alone is enough to run a review; it cites the sections above by number when a
+Reading [§13](#13-review-protocol) alone is enough to run a review; it cites the sections above by number when a
 finding needs the underlying rule.
 
 ## Provenance and permissions
@@ -125,9 +125,9 @@ the evaluation is split along these lines and not along the file boundaries:
 | **Part II of the Scientific Proposal** | Part B2 | 7 pages |
 | Funding ID (current grants and pending applications) | Part B2, after Part II | outside the page limit |
 | Abstract | Part A, *General Information* — the cover page copies it verbatim | 2,000 characters incl. spaces |
-| **Budget table** | Part A, *Budget* — five cost categories (§11.1) | whole euros; capped at the grant maximum plus any additional funding |
-| **Resources** description | Part A, *Budget*, text box under the table (§11.2) | 8,000 characters incl. spaces ≈ 1–2 pages, silently truncated |
-| **Time commitment** | Part A, *Other questions* | a percentage, ≥ the minimum below |
+| **Budget table** | Part A, *Budget* — five cost categories ([§11.1](#111-the-budget-table)) | whole euros; capped at the grant maximum plus any additional funding |
+| **Resources** description | Part A, *Budget*, text box under the table ([§11.2](#112-the-resources-text-box)) | 8,000 characters incl. spaces ≈ 1–2 pages |
+| **Time commitment** | Part A, *Other questions* | a percentage, ≥ the minimum in the eligibility table above |
 
 Only Part I, the CV and Part II are page-limited; everything else in the table is capped in
 characters, which is the harder constraint to plan for because no editor shows it to you.
@@ -256,7 +256,7 @@ wrong document; if a B2 work package never connects to an objective, the mapping
 
 The cover page carries the title, acronym, PI, host institution and duration, and — if you
 are asking for more than one review panel — the additional panel and the reason it is needed
-(§11.4). It sits outside Part I's five pages. Two things deserve real effort:
+([§11.4](#114-panel-keywords-and-who-will-not-review-you)). It sits outside Part I's five pages. Two things deserve real effort:
 
 **The acronym.** It is the handle the panel uses for your project through two steps of
 evaluation. Pick something pronounceable that encodes the idea.
@@ -281,20 +281,19 @@ the project will *change, open or challenge* in the field.
 choose the structure, and a reader who cannot find the answer to an evaluation question
 concludes it is absent. Use the criteria as your headings, or as visible threads.
 
-Recommended sections and page budget. The five pages are not divided by the call — this
-allocation is editorial, and the subsection numbers below are where each band's rules live:
+Recommended sections and page budget. The five pages are not divided by the call, so this
+allocation is editorial: the *Covered in* column is where each band's rules live, and the
+bracket on each of those subsection headings is its share of the band, so the nine brackets
+sum to five pages. Treat a bracket as an opening bid rather than a rule — what matters is
+that a section running to twice its bracket has taken the pages from somewhere, and that you
+can say from where.
 
 | Band | Pages | Covered in |
 |---|---|---|
-| Introduction / project rationale + vision | 1 – 1.5 | §7.1, §7.2, §7.3, §7.4 |
-| Objectives + state of the art | 1.5 – 2 | §7.5, §7.6 |
-| Research approach / strategy | 1.5 – 2 | §7.7 |
-| Why now, why me + impact | 0.5 – 1 | §7.8, §7.9 |
-
-The bracket on each subsection heading below is that subsection's share, so the nine of them
-sum to the five pages. Treat them as an opening bid, not a rule: what matters is that a
-section running to twice its bracket has taken the pages from somewhere, and you should be
-able to say from where.
+| Introduction / project rationale + vision | 1 – 1.5 | [§7.1](#71-introduction--project-rationale-½¾-page), [§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own), [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), [§7.4](#74-vision-versus-overarching-aim-¼-page) |
+| Objectives + state of the art | 1.5 – 2 | [§7.5](#75-objectives-½¾-page), [§7.6](#76-state-of-the-art-¾1-page) |
+| Research approach / strategy | 1.5 – 2 | [§7.7](#77-research-strategy-1½2-pages) |
+| Why now, why me + impact | 0.5 – 1 | [§7.8](#78-why-now-why-me-¼½-page), [§7.9](#79-impact-¼½-page) |
 
 References do not count against the limit; the cover page does not either. Formatting is
 mandatory and checked: A4, Times New Roman / Arial or similar, **font size ≥ 11**, single
@@ -417,7 +416,7 @@ you have written B2 twice.
 conclude, and asserting it invites doubt. Demonstrate it through the specificity of the
 approach and the relevance of your record. This is now doubly true: "is the outlined
 scientific approach feasible?" was **removed from the Step-1 question list** as of WP 2026
-(§[12](#12-what-this-was-checked-against)), so a Part I that argues feasibility is
+([§12](#12-what-this-was-checked-against)), so a Part I that argues feasibility is
 answering a question nobody at Step 1 is asking, at the cost of the ambition they *are*
 scoring.
 
@@ -508,27 +507,25 @@ Order of sections:
 4. **Gantt chart.**
 5. **Risk analysis** and concluding remarks.
 
-Page budget for the seven pages. Editorial, like §7's, and the numbers on the subsection
-headings below are the same ones:
+Page budget for the seven pages — editorial in the same way as [§7](#7-part-i-of-the-scientific-proposal-5-pages-in-b1)'s, and the brackets on the
+subsection headings are these numbers:
 
 | Section | Pages | Covered in |
 |---|---|---|
 | Compressed recap: intro, vision, objectives, state of the art | ½ – 1 | this section |
-| Project design, with the objectives-to-work-units figure | ¾ | §9.1 |
-| Work plan — every work package, task and moonshot | 4½ | §9.2, §9.3, §9.4 |
-| Gantt chart | ¼ | §9.1 |
-| Risk analysis and concluding remarks | ½ | §9.5 |
+| Project design, with the objectives-to-work-units figure | ¾ | [§9.1](#91-project-design-¾-page-figure-included) |
+| Work plan — every work package, task and moonshot | 4½ | [§9.2](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan), [§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks-¼-page-150200-words) |
+| Gantt chart | ¼ | [§9.1](#91-project-design-¾-page-figure-included) |
+| Risk analysis and concluding remarks | ½ | [§9.5](#95-risk-assessment-½-page-with-the-gantt-chart-alongside) |
 
 The work plan is four fifths of what is left after the recap, which is the allocation to
 defend if something has to give. Advice written for the old 14-page Part II implies a much
 larger recap and state of the art; if that is what you are working from, see
 [§12](#12-what-this-was-checked-against) before dividing anything.
 
-**Do not** reproduce the budget table in Part II. The table and its detailed justification
-live in Part A; Part II may explain resources where the work plan makes it natural, but it
-cannot deviate from Part A, and no budget information may be annexed (§11.1). References and
-the Funding ID appendix do not count towards the page limit, and must not be uploaded
-separately.
+**Do not** reproduce the budget table in Part II — [§11.1](#111-the-budget-table) has the rule about what Part II may
+and may not say about resources. References and the Funding ID appendix do not count towards
+the page limit, and must not be uploaded separately.
 
 ### 9.1 Project design (¾ page, figure included)
 
@@ -680,7 +677,7 @@ prose disagree, **the table prevails**.
 
 Both the table and the Resources text reach the Step-2 panel and the Remote Reviewers, as a
 generated *Proposal Budget Report* that also prints your declared time commitment beside the
-figures (§3). Nobody at Step 1 sees any of it. Expect interview questions on the table
+figures ([§3](#3-who-reads-what-and-when)). Nobody at Step 1 sees any of it. Expect interview questions on the table
 itself. Talk to your institution's grant support staff — this is the one section where local
 expertise beats general advice.
 
@@ -733,7 +730,7 @@ Six things it has to do, in the call's own order:
 1. **Every cost category, described and justified**, as accurately as you can estimate.
 2. **The size and nature of the team**, with key members and their roles. A member hosted by
    another institution needs the scientific added value spelled out against the extra cost.
-3. **Any additional funding**, item by item (§11.3).
+3. **Any additional funding**, item by item ([§11.3](#113-additional-funding)).
 4. **A short technical description of each piece of requested equipment** — what it is, why
    you need it, and how much of the project you will use it for.
 5. **A realistic Open Access estimate.** Eligible only for fully open-access venues and only
@@ -748,7 +745,7 @@ where you already hold other funding.
 
 ### 11.3 Additional funding
 
-Above the €1.5 M (StG) or €2.0 M (CoG) ceiling you may request up to **€1 M**, or **€2 M**
+Above the grant ceiling ([§2](#2-call-mechanics)) you may request up to **€1 M**, or **€2 M**
 if you are relocating to the EU or an Associated Country to take up the grant. It goes in
 the same table, in whichever cost categories the money is actually needed for, and must be
 fully justified in the Resources text. It is a separate cost category in the Model Grant
@@ -763,7 +760,8 @@ You choose the primary panel and, if the proposal is genuinely cross-disciplinar
 secondary one; up to four ERC keywords from the call's own list, each covering a research
 area. This choice determines who reads you in Step 1 — which, given that Step 1 is decided by
 generalists reading only B1, is a strategic decision rather than an administrative one. The
-ERC publishes past panel membership at `erc.europa.eu/apply-grant/panel-members`; work
+ERC publishes past panel membership at
+[erc.europa.eu/apply-grant/panel-members](https://erc.europa.eu/apply-grant/panel-members); work
 backwards from the composition of a panel to whether your B1 will land with it. A
 cross-panel proposal must also *explain on the cover page why* it needs more than one panel.
 
@@ -778,15 +776,15 @@ same as no entry.
 
 Every number and quotation above was verified on **11 August 2026** against two primary
 sources, both of which govern the ERC-2027-StG and ERC-2027-CoG calls. The budget, resources
-and CV material — §2's component table, §8, and §11.1–11.4 — was checked again on
+and CV material — [§2](#2-call-mechanics)'s component table, [§8](#8-part-b1--cv-and-track-record-4-pages), and [§11.1](#111-the-budget-table)–[11.4](#114-panel-keywords-and-who-will-not-review-you) — was checked again on
 **14 August 2026** against the same *Information for Applicants*, §2.3 and Annexes 4.6
 and 4.7 (the Proposal Budget Report), which is where the cost categories, the 25 % indirect
 formula and the character limits are stated:
 
 | Source | Version | Settles |
 |---|---|---|
-| *Information for Applicants to the Starting and Consolidator Grant 2027 Calls* | 11.0, 22 July 2026 | component names, page limits, layout, what each step sees, interview, budget rules |
-| *ERC Work Programme 2027* | C(2026) 4907, 20 July 2026 | evaluation elements verbatim (§1.6.5), eligibility windows, grant amounts, call dates |
+| [*Information for Applicants to the Starting and Consolidator Grant 2027 Calls*](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-stg-cog_en.pdf) | 11.0, 22 July 2026 | component names, page limits, layout, what each step sees, interview, budget rules |
+| [*ERC Work Programme 2027*](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf) | C(2026) 4907, 20 July 2026 | evaluation elements verbatim (§1.6.5), eligibility windows, grant amounts, call dates |
 
 The Information for Applicants for **your own** call is the authority, not this file. It is
 reissued every July and its version history names the call it serves, so check that the
@@ -811,10 +809,10 @@ the methodology and working arrangements are appropriate. Novel method still hel
 evidence of ambition and of creative thinking — but it no longer has its own address.
 
 *The eligibility windows widened in WP 2027*, from 2–7 and 7–12 years post-PhD to 0–10 and
-5–15 (§2). Anyone told they were too early or too late for a Starting Grant under the old
+5–15 ([§2](#2-call-mechanics)). Anyone told they were too early or too late for a Starting Grant under the old
 rule should recheck.
 
-*Also new in WP 2027, and not covered by this guide:* the **ERC Plus Grant** (€7 M, 48–84
+*Also new in WP 2027, and not covered by this guide:* the **[ERC Plus Grant](https://erc.europa.eu/apply-grant/erc-plus-grant)** (€7 M, 48–84
 months, open to all career stages, roughly 30 awarded per year across all fields against
 about 1,000 StG/CoG/AdG), which adds its own evaluation question — whether the project
 addresses aims unreachable with a regular ERC grant. Everything here is written for StG and
@@ -841,13 +839,13 @@ Three shared conventions make findings comparable across reviews:
 | **SCORE** | Weakens the answer to a named evaluation question | Costs points in Step 1 or 2 |
 | **POLISH** | Sentence-level | Costs goodwill, not points |
 
-The same three words label the checker's output (§13.3) and the comment macros (§13.5).
+The same three words label the checker's output ([§13.3](#133-what-the-checker-settles--stages-8-and-9)) and the comment macros ([§13.5](#135-leaving-a-finding-in-the-draft)).
 
 The evaluation questions are referred to below by the shorthands **Q1** important questions,
 **Q2** ambitious objectives / frontier, **Q3** methodology and working arrangements, **Q4**
 timescales and resources, **Q5** PI ground-breaking research, **Q6** PI creative and
-original thinking, **Q7** PI expertise and capacity (§4). Q1, Q2 and Q5–Q7 are scored in
-Step 1 from Part I and the CV alone; Q3 and Q4 only in Step 2 (§3). Naming the question is
+original thinking, **Q7** PI expertise and capacity ([§4](#4-the-evaluation-questions)). Q1, Q2 and Q5–Q7 are scored in
+Step 1 from Part I and the CV alone; Q3 and Q4 only in Step 2 ([§3](#3-who-reads-what-and-when)). Naming the question is
 what separates a finding from a preference.
 
 And one standing rule: anything you cannot point to a location for is missing, not implicit.
@@ -869,7 +867,7 @@ covered.
 | 8 | **Prose** | Fillers, hedges, voice, jargon, tics | POLISH, machine-checked |
 | 9 | **Compliance** | Pages, placeholders, citations, funding table | BLOCK, machine-checked |
 
-Stage 0 first, always: `erc_check.py --census --pages` (§13.3). It reports words per
+Stage 0 first, always: `erc_check.py --census --pages` ([§13.3](#133-what-the-checker-settles--stages-8-and-9)). It reports words per
 part, which units are still unwritten, how many placeholders remain, and pages against the
 limit — enough to know which stages are answerable. A part sitting **at** its page limit
 changes every later stage, because from then on a suggestion must name what it displaces.
@@ -912,33 +910,33 @@ what makes a finding arguable on the merits instead of on taste.
   inconsistency over naming a gap: a gap invites "so fill a different one".
 - **Limitations and barriers are both present and distinguishable.** *Test:* B1 intro and
   state of the art; passes when one sentence says *what* is unknown and a different
-  sentence says *why* it has stayed unknown (§7.2). *Cost:* Q1 — the "limitations and
+  sentence says *why* it has stayed unknown ([§7.2](#72-limitations-versus-barriers-a-rule-for-71-not-a-section-of-its-own)). *Cost:* Q1 — the "limitations and
   barriers" component is scored explicitly. *Suggest:* if only limitations exist, ask what
-  blocked prior attempts; that answer is usually also the why-now (§7.8).
+  blocked prior attempts; that answer is usually also the why-now ([§7.8](#78-why-now-why-me-¼½-page)).
 - **The challenge is falsifiable.** *Test:* passes when no challenge statement rests on
-  "poorly understood", "remains unclear", "little is known" (§7.3, machine-checked).
+  "poorly understood", "remains unclear", "little is known" ([§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71), machine-checked).
   *Cost:* Q1. *Suggest:* replace with the specific claim that would have to be wrong.
 
 #### Stage 3 — Layers
 
 - **Vision and aim are separate.** *Test:* passes when the vision outlives the grant, the
-  aim completes inside 60 months, and neither paraphrases the other (§7.4). *Cost:* Q2 —
+  aim completes inside 60 months, and neither paraphrases the other ([§7.4](#74-vision-versus-overarching-aim-¼-page)). *Cost:* Q2 —
   a vision-shaped aim reads as unachievable, an aim-shaped vision as unambitious; both lose
   the same point. *Suggest:* keep both sentences and label them.
 - **3–5 objectives, each a knowledge claim.** *Test:* passes when each opens with a verb of
   knowledge production — uncover, identify, assess, test whether — is verifiable, and the
-  dependencies between them are stated (§7.5). *Cost:* Q2, where deliverable-phrased
+  dependencies between them are stated ([§7.5](#75-objectives-½¾-page)). *Cost:* Q2, where deliverable-phrased
   objectives are explicitly marked down. *Suggest:* convert "build X" into the claim that
   building X lets you test.
 - **No B1 paragraph is describing a task, no B2 work package floats free of an objective.**
-  *Test:* §5's four layers; passes when every passage sits at one level. *Cost:* Q2 in B1
+  *Test:* [§5](#5-the-four-layers)'s four layers; passes when every passage sits at one level. *Cost:* Q2 in B1
   (detail read as timidity), Q3 in B2 (a work package with no objective has no purpose).
   *Suggest:* move it rather than rewrite it — misplaced material is usually good material.
 
 #### Stage 4 — Step-1 sufficiency
 
 - **B1 stands alone.** *Test:* close B2 entirely; passes when Q1, Q2 and Q5–Q7 can all be
-  scored from B1 (§3). *Cost:* all five, silently — the Step-1 panel never sees B2, so
+  scored from B1 ([§3](#3-who-reads-what-and-when)). *Cost:* all five, silently — the Step-1 panel never sees B2, so
   content parked there scores zero at the only stage that eliminates. *Suggest:* name what
   must be lifted into B1 and what it displaces from the five pages.
 - **Written for a generalist.** *Test:* passes when every term not universal *outside* the
@@ -954,44 +952,44 @@ Take one question at a time and find its address. The recurring failures:
 
 - **Timeliness is argued, not asserted.** *Test:* the why-now section; passes when a
   specific thing changed — a method, a dataset, a result, a preliminary finding of the PI's.
-  "The field is ready" does not count (§7.8). *Cost:* Q2. *Suggest:* the barrier from stage
+  "The field is ready" does not count ([§7.8](#78-why-now-why-me-¼½-page)). *Cost:* Q2. *Suggest:* the barrier from stage
   2, plus what removed it.
 - **PI fit is shown, not claimed.** *Test:* CV opening plus the ten outputs; passes when a
-  reader concludes you are the obvious person without the document saying so (§8). *Cost:*
+  reader concludes you are the obvious person without the document saying so ([§8](#8-part-b1--cv-and-track-record-4-pages)). *Cost:*
   Q5–Q7. *Suggest:* replace the claim with the evidence that produced it; for CoG,
-  weight independence and leadership, for StG, exceptional results (§4).
+  weight independence and leadership, for StG, exceptional results ([§4](#4-the-evaluation-questions)).
 - **Impact says why the findings generalise.** *Test:* passes when there is a *because*,
-  not a list of adjacent fields (§7.9). *Cost:* Q1's relevance component. *Suggest:* name
+  not a list of adjacent fields ([§7.9](#79-impact-¼½-page)). *Cost:* Q1's relevance component. *Suggest:* name
   the mechanism of transfer — a principle, not a method.
 - **Feasibility is demonstrated, never asserted.** *Test:* search for "feasible"; passes
   when there are no hits and the specificity of the approach does the work. *Cost:* in
-  WP2026+ feasibility left Step 1 entirely (§12), so asserting it in B1 spends space on an
+  WP2026+ feasibility left Step 1 entirely ([§12](#12-what-this-was-checked-against)), so asserting it in B1 spends space on an
   unscored claim. *Suggest:* delete the assertion; move the evidence to B2 §b.
 - **Ten outputs each carry significance, PI role, and project relevance.** *Test:* passes
-  when no entry is a bare citation and non-paper artefacts are claimed explicitly (§8).
+  when no entry is a bare citation and non-paper artefacts are claimed explicitly ([§8](#8-part-b1--cv-and-track-record-4-pages)).
   *Cost:* Q5–Q7. *Suggest:* one clause per output, in that order.
 
 #### Stage 6 — Work plan
 
 - **Every WP has a one-sentence objective that is an outcome, and a 2–5 sentence rationale
   that is a need.** *Test:* the WP opening; passes when the objective names what will exist
-  and the rationale names why the WP is required (§9.2). *Cost:* Q3 — the external expert
+  and the rationale names why the WP is required ([§9.2](#92-work-packages-objective-versus-rationale-4½-pages-for-the-whole-work-plan)). *Cost:* Q3 — the external expert
   reads the work plan for whether conclusions can be drawn. *Suggest:* they are usually both
   present and both labelled "objective"; relabel one.
 - **Objectives map visibly to work packages.** *Test:* B2 project design; passes when a
-  figure shows the mapping and the dependencies (§9.1). *Cost:* Q3, Q4. *Suggest:* a table
+  figure shows the mapping and the dependencies ([§9.1](#91-project-design-¾-page-figure-included)). *Cost:* Q3, Q4. *Suggest:* a table
   is enough if a figure will not fit.
 - **Every task reads purpose → approach → contribution, as prose.** *Test:* each
   `\paragraph`; passes when no task carries its own objective/rationale/sub-task scaffolding
-  and the length matches 1–2 + 4–8 + 1–3 sentences (§9.3, length machine-flagged). *Cost:*
+  and the length matches 1–2 + 4–8 + 1–3 sentences ([§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), length machine-flagged). *Cost:*
   Q3. *Suggest:* the missing element is nearly always the expected contribution.
 - **Each moonshot is bounded and informative either way.** *Test:* passes when it names the
   specific uncertainty, says what a negative result teaches, and states that the WP's
-  objectives survive without it (§9.4). *Cost:* Q2 if absent, Q3 if unbounded. *Suggest:*
+  objectives survive without it ([§9.4](#94-moonshot-tasks-¼-page-150200-words)). *Cost:* Q2 if absent, Q3 if unbounded. *Suggest:*
   add the sentence that says the other tasks form a complete project alone — and do not
   apologise for the risk.
 - **Risk analysis answers *why take this risk*.** *Test:* passes when each risk has a
-  classification, a contingency, and a fallback that still yields a result (§9.5). *Cost:*
+  classification, a contingency, and a fallback that still yields a result ([§9.5](#95-risk-assessment-½-page-with-the-gantt-chart-alongside)). *Cost:*
   Q3, Q4. *Suggest:* a fallback that yields nothing is a reason to cut the task.
 - **Gantt shows decision points.** *Test:* passes when go/no-go moments are visible, not
   just durations. *Cost:* Q4. *Suggest:* mark them on the existing chart.
@@ -1011,7 +1009,7 @@ Take one question at a time and find its address. The recurring failures:
   POLISH unless it is a claim sentence, then SCORE. *Suggest:* a colon before the payload,
   or "not X, but Y".
 - **Causal chains are named.** *Test:* every "and", "then", "thereby"; passes when the
-  causal relation is in the verb (machine-flagged for the common cases, §10). *Cost:* Q3 —
+  causal relation is in the verb (machine-flagged for the common cases, [§10](#10-sentence-level-rules-for-the-implementation-sections)). *Cost:* Q3 —
   an implied chain is a chain the expert can dispute. *Suggest:* name the relation.
 - **Every claim is cited, shown, or softened** — including those inside subordinate clauses
   ("widely believed", "frequently dismissed"). *Cost:* the cheapest thing for a reviewer to
@@ -1037,26 +1035,26 @@ Each finding prints `file:line [code] message (guide §)`.
 
 | Code | Catches | Rule |
 |---|---|---|
-| `instructions-on` | `showinstructions` still enabled | §7 |
+| `instructions-on` | `showinstructions` still enabled | [§7](#7-part-i-of-the-scientific-proposal-5-pages-in-b1) |
 | `notes-visible` | `\wzm` set to reveal private notes | — |
 | `placeholder` | `HERE GOES`, `XXXX`, `DD/MM/YYYY`, `Name Surname`, `EDIT:`, `\temp{}`, `TODO` | — |
-| `empty-cite` / `empty-ref` | `\citep{}`, `\ref{}` — a claim with no support | §7.3 |
-| `funding-blank` | Funding ID table with no entries and no "No funding" | §2 |
-| `abstract-long` / `abstract-thin` | abstract outside the 2,000-character budget | §6 |
-| `vague-challenge` | "poorly understood", "remains unclear", "little is known", … | §7.3 |
-| `objective-deliverable` | objective opening with build/implement/release | §7.5 |
+| `empty-cite` / `empty-ref` | `\citep{}`, `\ref{}` — a claim with no support | [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) |
+| `funding-blank` | Funding ID table with no entries and no "No funding" | [§2](#2-call-mechanics) |
+| `abstract-long` / `abstract-thin` | abstract outside the 2,000-character budget | [§6](#6-part-b1--cover-page-and-abstract) |
+| `vague-challenge` | "poorly understood", "remains unclear", "little is known", … | [§7.3](#73-state-the-challenge-in-falsifiable-terms-24-sentences-inside-71) |
+| `objective-deliverable` | objective opening with build/implement/release | [§7.5](#75-objectives-½¾-page) |
 | `stray-note` | drafting fragments that render as body text | — |
-| `causality` | "and then", sentences opening "Then", stacked "and we will" | §10 |
-| `passive` | `will be …ed` where a human is the agent | §10 |
-| `filler` | simply, clearly, easily, leverage, utilize, very, various | §10 |
+| `causality` | "and then", sentences opening "Then", stacked "and we will" | [§10](#10-sentence-level-rules-for-the-implementation-sections) |
+| `passive` | `will be …ed` where a human is the agent | [§10](#10-sentence-level-rules-for-the-implementation-sections) |
+| `filler` | simply, clearly, easily, leverage, utilize, very, various | [§10](#10-sentence-level-rules-for-the-implementation-sections) |
 
 It also prints a **structure report** — every section, subsection and task with word and
 sentence counts, flagging tasks shorter than purpose+approach+contribution needs and
-moonshots over ~200 words (§9.3, §9.4) — and, with `--pages`, page counts against the limits.
+moonshots over ~200 words ([§9.3](#93-tasks-½-page-each-inside-the-work-plan-budget), [§9.4](#94-moonshot-tasks-¼-page-150200-words)) — and, with `--pages`, page counts against the limits.
 
 The two compliance items no script can check: B1 must be one combined PDF with sections,
-references and appendix never uploaded separately (§2), and B2 must contain no budget table
-or resources section anywhere (§11.1).
+references and appendix never uploaded separately ([§2](#2-call-mechanics)), and B2 must contain no budget table
+or resources section anywhere ([§11.1](#111-the-budget-table)).
 
 ### 13.4 Scoping a review
 
