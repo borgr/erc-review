@@ -60,24 +60,6 @@ author knows the review is not finished rather than clean.
 review back. If a stage has more, report the five with the largest consequence and say how
 many remain.
 
-Copy this into your first message and check stages off as you clear them, so the author can
-see where the review stopped and why:
-
-```
-Review progress:
-- [ ] 0  census        — run the checker, read it as a map, skip unanswerable stages
-- [ ] 1  fundability   — an ERC project, or an excellent next paper?
-- [ ] 2  problem       — a nameable question, with an instability and a cost?
-- [ ] 3  layers        — is each passage at its right altitude?
-- [ ] 4  step-1        — can B1 alone be scored, by a generalist?
-- [ ] 5  criteria      — does every evaluation question have an address?
-- [ ] 6  work plan     — are work units and tasks correctly typed and bounded?
-- [ ] 7  mechanics     — do the sentences carry the argument's joints?
-- [ ] 8  prose         — checker; fix in file, report a count
-- [ ] 9  compliance    — checker; fix in file, report a count
-STOP at the first stage with failures. Mark the rest "deferred", not "passed".
-```
-
 | # | Stage | Question | Rubric |
 |---|---|---|---|
 | 0 | Census | What exists at all? | `--census`, below |

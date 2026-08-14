@@ -8,7 +8,9 @@ these are written to be run by hand or fed to a judge.
 Each `*.json` follows the structure in Anthropic's
 [skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices#build-evaluations-first):
 a query, the files it runs against, and the behaviour a pass requires. `expected_behavior`
-entries are graded independently; a scenario passes only if all of them hold.
+entries are graded independently; a scenario passes only if all of them hold. `failure_modes`
+is an addition of ours, not part of that structure: it names the wrong answers that look
+right, which is what a human judge needs and a schema does not carry.
 
 ## Running one by hand
 
