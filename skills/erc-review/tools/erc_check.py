@@ -239,6 +239,10 @@ def check_file(path: pathlib.Path) -> list[Finding]:
             continue
         if ":" in line or re.search(r"\b(?:19|20)\d\d\b", line):
             continue
+        # A planning note never cites, and a citation command is a single long
+        # token that makes a full prose line look like a three-word fragment.
+        if re.search(r"\\(?:cite|citep|citet|citealp|citeauthor|autocite)\b", line):
+            continue
         words = line.split()
         if len(words) <= BODY_NOTE_MAX_WORDS and not re.search(r"[.!?:]$", line):
             add("SCORE", "stray-note", n,
