@@ -119,6 +119,40 @@ so and stop. That is a hole in the argument, not in the prose, and papering it o
 transition hides the thing worth fixing. Ask about it instead — guide §13.2, stage 7,
 *old information before new*, which says when to report a hole rather than a transition.
 
+## Handing back an outline
+
+Planning a section is a different job from reviewing one, and an outline the author cannot
+read is worse than none. Three levels, always in this order, and never only one of them.
+
+1. **The section in one sentence, as a causal chain.** "A holds, so B is testable by others,
+   which changes C, so D." Not a list of topic labels — "P1 is the knowledge, P2 the
+   incentives, P3 the world" names the paragraphs without connecting them, and an author
+   cannot write from it. **Test:** if the paragraphs can be reordered without the sentence
+   breaking, there is no argument yet, and that is the finding.
+2. **One line per paragraph, naming its single claim.** A paragraph with two claims is two
+   paragraphs or one cut.
+3. **The paragraph you are asking for, slot by slot.** Each slot is a short statement in
+   plain words that stands on its own, and reading the slots in order must convey the whole
+   idea with no detail at all. **Test:** strip every *because*, citation and qualifier; if the
+   bare statements no longer tell the story, the outline is a checklist rather than an
+   argument.
+
+Then four things that make the outline usable rather than merely correct.
+
+- **Attach the *because* to the slots that owe one**, and say what it is. Not every slot owes
+  one, and marking which do is what stops the author writing assertions where the score is.
+- **Name what you cut and where it is spent instead.** An outline that says only what goes in
+  invites the author to re-propose everything you left out.
+- **Give the cut order in advance**, and say which slots are load-bearing. Sections are cut
+  under page pressure at the end, when the reasoning is no longer in view.
+- **Check the neighbouring sections first and record the collisions.** A beat already spent
+  two pages earlier is not available, however well it fits. This is the most common defect in
+  a section outline written from the guide alone.
+
+**Never open a section on the applicant's own artifacts.** "The model we build…" makes the
+reader's first move about the project rather than about what changes. Impact opens on the
+field-level change, State of the Art on the literature, Why Now on the field's readiness.
+
 ## Deciding what to do
 
 The split is content versus form, and it follows from who owns the sentence.
