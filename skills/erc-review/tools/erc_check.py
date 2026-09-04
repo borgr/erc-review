@@ -310,7 +310,66 @@ def structure_report(path: pathlib.Path) -> list[str]:
     ]
 
 
-def page_counts(tex: pathlib.Path) -> int | None:
+BIB_HEADINGS = ("References", "Bibliography")
+
+
+def _pdf_pages(data: bytes) -> int:
+    total = 0
+    for m in re.finditer(rb"stream\r?\n", data):
+        s = m.end()
+        e = data.find(b"endstream", s)
+        try:
+            raw = zlib.decompress(data[s:e])
+        except Exception:
+            continue
+        total += len(re.findall(rb"/Type\s*/Page\b(?![s])", raw))
+    return total
+
+
+def _headings(tex: pathlib.Path) -> list[str]:
+    """Every top-level heading except the bibliography's own.
+
+    Used to find where the bibliography stops. A part whose references sit in
+    the middle -- B1's do, with the CV after them -- ends its bibliography at
+    the next heading rather than at the last page.
+    """
+    src = re.sub(r"(?m)^\s*%.*$", "", tex.read_text(encoding="utf-8", errors="replace"))
+    out = []
+    for m in re.finditer(r"\\(?:cv)?section\*?\{([^{}]*)\}", src):
+        t = re.sub(r"\\[A-Za-z]+\*?|[{}$\\]", "", m.group(1)).strip()
+        if t and t not in BIB_HEADINGS:
+            out.append(t)
+    return out
+
+
+def _heading_on(page: str, title: str) -> bool:
+    """A heading owns its line, which is what keeps a cited title from matching."""
+    return re.search(rf"(?im)^\s*\d*\.?\s*{re.escape(title)}\s*$", page) is not None
+
+
+def _bib_pages(pdf: pathlib.Path, titles: list[str], total: int) -> int | None:
+    """How many of the PDF's pages the bibliography occupies, or None if unknown."""
+    if not _which("pdftotext"):
+        return None
+    r = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True)
+    if r.returncode:
+        return None
+    pages = r.stdout.split("\f")
+    start = next((i for i, pg in enumerate(pages)
+                  if any(_heading_on(pg, h) for h in BIB_HEADINGS)), None)
+    if start is None:
+        return 0
+    end = next((j for j in range(start + 1, len(pages))
+                if any(_heading_on(pages[j], t) for t in titles)), total)
+    return max(0, min(end, total) - start)
+
+
+def page_counts(tex: pathlib.Path) -> dict | None:
+    """Pages in the PDF, and how many of them the limit actually counts.
+
+    The ERC page limits exclude the bibliography, so a draft with five pages of
+    references reads as three pages over when it is inside its limit.
+    """
     if not _which("tectonic"):
         return None
     with tempfile.TemporaryDirectory() as tmp:
@@ -321,17 +380,12 @@ def page_counts(tex: pathlib.Path) -> int | None:
         pdf = pathlib.Path(tmp) / (tex.stem + ".pdf")
         if not pdf.exists():
             return None
-        data = pdf.read_bytes()
-        total = 0
-        for m in re.finditer(rb"stream\r?\n", data):
-            s = m.end()
-            e = data.find(b"endstream", s)
-            try:
-                raw = zlib.decompress(data[s:e])
-            except Exception:
-                continue
-            total += len(re.findall(rb"/Type\s*/Page\b(?![s])", raw))
-        return total or None
+        total = _pdf_pages(pdf.read_bytes())
+        if not total:
+            return None
+        bib = _bib_pages(pdf, _headings(tex), total)
+        return {"total": total, "bib": bib,
+                "content": None if bib is None else total - bib}
 
 
 def _which(prog: str) -> bool:
@@ -360,6 +414,11 @@ def resolve_targets(names: list[str]) -> list[pathlib.Path]:
         if found:
             return found
     return []
+
+
+def _countable(pages: dict) -> int:
+    """Pages the limit counts, which is the whole PDF only when the bibliography eludes us."""
+    return pages["total"] if pages["content"] is None else pages["content"]
 
 
 def census(targets: list[pathlib.Path], want_pages: bool) -> dict:
@@ -410,7 +469,7 @@ def main() -> int:
             print(json.dumps(data, indent=2, ensure_ascii=False))
             return 0
         for name, p in data["parts"].items():
-            pg = "" if p["pages"] is None else f", {p['pages']} of {p['page_limit']} pages"
+            pg = "" if p["pages"] is None else f", {_countable(p['pages'])} of {p['page_limit']} pages"
             print(f"{name}: {p['words']} words in {p['units']} units{pg}")
             if p["unwritten"]:
                 print(f"  unwritten ({len(p['unwritten'])}): "
@@ -456,16 +515,21 @@ def main() -> int:
     if args.pages:
         print("\n=== PAGES ===")
         for t in targets:
-            n = page_counts(t)
+            pc = page_counts(t)
             limit = PAGE_LIMITS.get(t.stem)
-            if n is None:
+            if pc is None:
                 print(f"  {t.name}: could not compile")
+                continue
+            n = _countable(pc)
+            if pc["content"] is None:
+                tail = "  (bibliography not located; install pdftotext to exclude it)"
+            elif pc["bib"]:
+                tail = f"  ({pc['total']} in the PDF, {pc['bib']} of them bibliography)"
             else:
-                flag = ("" if limit is None or n <= limit
-                        else "  <- OVER LIMIT (references excluded from the limit;"
-                             " check by hand)")
-                print(f"  {t.name}: {n} pages"
-                      + (f" of {limit} allowed{flag}" if limit else ""))
+                tail = ""
+            flag = "" if limit is None or n <= limit else "  <- OVER LIMIT"
+            print(f"  {t.name}: {n} pages"
+                  + (f" of {limit} allowed" if limit else "") + tail + flag)
 
     print(f"\n{counts['BLOCK']} block, {counts['SCORE']} score, {counts['POLISH']} polish")
     return 1 if counts["BLOCK"] else 0
